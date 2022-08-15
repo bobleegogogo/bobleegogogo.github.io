@@ -20,7 +20,8 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 <h2>Program Committee</h2>
 
 * [Academic Track, State of the Map 2022](https://2022.stateofthemap.org/calls/academic/) 
-* [3rd Data-driven Humanitarian Mapping workshop](https://kdd-humanitarian-mapping.herokuapp.com/#org), ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2022
+* [The 3rd Data-driven Humanitarian Mapping workshop](https://kdd-humanitarian-mapping.herokuapp.com/#org), ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2022
+* [The 5th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery (GeoAI)](https://geoai.ornl.gov/acmsigspatial-geoai/2022-2/)
 
 
 <h2>Invited Talks</h2>
