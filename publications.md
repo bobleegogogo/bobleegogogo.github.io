@@ -2,7 +2,7 @@
 title: Publications
 permalink: /publications/
 ---
-<h3>Journal Papers (peer reviewd)</h3>
+<h3>Journal Papers (peer reviewed)</h3>
 
 
 **(J10)** **Li, H.**, Yuan, Z., Novack, T., Huang, W., Zipf, A., (2022) [***Understanding spatiotemporal trip purposes of urban micro-mobility from the lens of dockless e-scooter sharing***. Computers, Environment and Urban Systems, 96, 101848, June 2022](https://doi.org/10.1016/j.compenvurbsys.2022.101848)
@@ -25,8 +25,13 @@ permalink: /publications/
 
 **(J1)** **Li, H.**., Ghamisi, P., Soergel, U. and Zhu, X.X. (2018): [***Hyperspectral and LiDAR Fusion Using Deep Three-Stream Convolutional Neural Networks***. Remote Sensing, 2018, 10, 1649.](https://doi.org/10.3390/rs10101649) 
 
+<h3>Editorial</h3>
 
-<h3>Conference Proceedings (peer reviewd)</h3>
+**(E1)** Grinberger, A.Y., Liu, P., **Li, H.**, Juhász, L., & Minghini, M. (2022). [***OpenStreetMap, beyond just Data: The Academic Track at State of the Map 2022.***
+In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proceedings of the Academic Track at State of the Map 2022, Florence, Italy, 19-21 August 2022.](https://zenodo.org/record/7004791#.YwXbzXbP3Z8) Available at https://zenodo.org/communities/sotm-22, DOI: 10.5281/zenodo.7004424
+
+
+<h3>Conference Proceedings (peer reviewed)</h3>
 
 **(C5)** **Li, H.**; Zipf, A. (2022) [***A conceptual model for converting OpenStreetMap contribution to geospatial machine learning training data***, ISPRS XXIV Congress 2022 At: Nice, France.](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B4-2022/253/2022/) (***the ISPRS Best Poster Award***)
 
