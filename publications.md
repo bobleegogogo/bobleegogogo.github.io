@@ -25,7 +25,7 @@ permalink: /publications/
 
 **(J1)** **Li, H.**., Ghamisi, P., Soergel, U. and Zhu, X.X. (2018): [***Hyperspectral and LiDAR Fusion Using Deep Three-Stream Convolutional Neural Networks***. Remote Sensing, 2018, 10, 1649.](https://doi.org/10.3390/rs10101649) 
 
-<h3>Editorial</h3>
+<h3>Editorials (peer reviewed)</h3> 
 
 **(E1)** Grinberger, A.Y., Liu, P., **Li, H.**, Juhász, L., & Minghini, M. (2022). [***OpenStreetMap, beyond just Data: The Academic Track at State of the Map 2022.***
 In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proceedings of the Academic Track at State of the Map 2022, Florence, Italy, 19-21 August 2022.](https://zenodo.org/record/7004791#.YwXbzXbP3Z8) Available at https://zenodo.org/communities/sotm-22, DOI: 10.5281/zenodo.7004424
