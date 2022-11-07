@@ -33,6 +33,8 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 <h3>Conference Proceedings (peer reviewed)</h3>
 
+**(C6)**  Werner, M. and **Li, H.** 2022. [***AtlasHDF: an efficient big data framework for GeoAI***. In Proceedings of the 10th ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data (BigSpatial '22). Association for Computing Machinery, New York, NY, USA, 1–7.](https://doi.org/10.1145/3557917.3567615)
+
 **(C5)** **Li, H.**; Zipf, A. (2022) [***A conceptual model for converting OpenStreetMap contribution to geospatial machine learning training data***, ISPRS XXIV Congress 2022 At: Nice, France.](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B4-2022/253/2022/) (***the ISPRS Best Poster Award***)
 
 **(C4)** Pisl, J., **Li, H.**, Lautenbach, S., Herfort, B., and Zipf, A. (2021): [***Detecting OpenStreetMap missing buildings by transferring pre-trained deep neural networks***, AGILE GIScience Ser., 2, 39, 2021.](https://doi.org/10.5194/agile-giss-2-39-2021)
