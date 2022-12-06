@@ -5,6 +5,8 @@ permalink: /publications/
 <h3>Journal Papers (peer reviewed)</h3>
 
 
+**(J11)** Dax, G., Nagarajan, S., **Li, H.** and Werner, M., (2022) [***Compression Supports Spatial Deep Learning***, in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, December 2022](https://doi.org/10.1109/JSTARS.2022.3226563)
+
 **(J10)** **Li, H.**, Yuan, Z., Novack, T., Huang, W., Zipf, A., (2022) [***Understanding spatiotemporal trip purposes of urban micro-mobility from the lens of dockless e-scooter sharing***. Computers, Environment and Urban Systems, 96, 101848, June 2022](https://doi.org/10.1016/j.compenvurbsys.2022.101848)
 
 **(J9)**  **Li, H.**, Zech, J., Hong, D., Ghamisi, P., Schultz, M., Zipf, A.(2022) [***Leveraging OpenStreetMap and Multimodal Remote Sensing Data with Joint Deep Learning for Wastewater Treatment Plants Detection***. Volume 110, June 2022, 102804, International Journal of Applied Earth Observation and Geoinformation.](https://doi.org/10.1016/j.jag.2022.102804)
