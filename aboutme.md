@@ -9,9 +9,11 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 
 <h2>Teaching</h2>
 
-* [Geographical Analysis of Social Media Data (GASMD), Seminar & Lab, WS2021](https://lsf.uni-heidelberg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=350079&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung), Heidelberg University.
-* Machine Learning for Geographic Applications, Lecture & Lab, SS 2021, Heidelberg University.
-* Machine Learning for Geographic Applications, Lecture & Lab, SS 2020, Heidelberg University.
+* [Principles of Spatial Data Mining and Machine Learning, Lecture & Excercise (3 SWS), WS2022](https://www.bgd.ed.tum.de/en/teaching/wise2022/lecture_sdmml/), Technical University of Munich
+* [Research Seminar Big Geospatial2Data, Seminar (2 SWS), WS 2022](https://www.bgd.ed.tum.de/en/teaching/wise2022/research_seminar/), Technical University of Munich
+* [Geographical Analysis of Social Media Data (GASMD), Seminar & Lab (2 SWS), WS2021](https://lsf.uni-heidelberg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=350079&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung), Heidelberg University.
+* Machine Learning for Geographic Applications, Seminar & Lab (2 SWS), SS 2021, Heidelberg University.
+* Machine Learning for Geographic Applications, Seminar & Lab (2 SWS), SS 2020, Heidelberg University.
 
 <h2>Project</h2>
 
