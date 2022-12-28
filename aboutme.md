@@ -18,6 +18,7 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 <h2>Project</h2>
 
 * <b>Principle Investigator</b>, [HDF4Water: Hierarchical Data Format for Water-related Big Geodata](https://www.nfdi4earth.de/2participate/incubator-lab), funded by the NFDI4Earth consortium, from July, 2022 to Dec, 2022.
+* <b>Co- Principle Investigator</b>, [Coding4Geo: An open-access and interactive coding platform to facilitate E-Teaching in Geospatial Data Analysis](https://www.nfdi4earth.de/2participate/education-training?view=article&id=314&catid=15), funded by the NFDI4Earth consortium, from Oct, 2022 to Feb, 2023.
 
 <h2>Program Committee</h2>
 
@@ -26,22 +27,23 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * [The 5th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery (GeoAI)](https://geoai.ornl.gov/acmsigspatial-geoai/2022-2/)
 
 
+
+<h2>Scientific Reviewing</h2>
+
+* International Journal of Applied Earth Observation and Geoinformation, Elsevier
+* Annals of the American Association of Geographers, Taylor & Francis
+* IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), IEEE
+* Remote Sensing, MDPI
+* ISPRS International Journal of Geo-Information, MDPI
+* Arabian Journal of Geosciences, Springer
+* IEEE Geoscience and Remote Sensing Letters, IEEE
+
 <h2>Invited Talks</h2>
 
 * A Conceptual Model for Converting OpenStreetMap Contribution to Geospatial Machine Learning Training Data, Aerospace Information Research Institute, Chinese Academy of Sciences (CAS), May, 2022
 * [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://ual.sg/seminars/), the Urban Analytics Lab seminar series, National University of Singapore (NUS), April 2022.
 * [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://mp.weixin.qq.com/s/G2GRet3trCF75zh4aHIjGw), the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University (LIESMARS), April 2022.
 * Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap, College of Surverying and Geo-infromatics, Tongji University, November 2021.
-
-
-<h2>Scientific Reviewing</h2>
-
-* International Journal of Applied Earth Observation and Geoinformation, Elsevier
-* Annals of the American Association of Geographers, Taylor & Francis
-* Remote Sensing, MDPI
-* ISPRS International Journal of Geo-Information, MDPI
-* Arabian Journal of Geosciences, Springer
-* IEEE Geoscience and Remote Sensing Letters, IEEE
 
 
 <h2>Research Interests</h2>
