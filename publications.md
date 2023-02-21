@@ -2,6 +2,10 @@
 title: Publications
 permalink: /publications/
 ---
+<h3>Dissertation</h3>
+
+**Li, H.** (2022) [***Deep Learning from Heterogeneous Geospatial Data for Automated Mapping of Man-made Infrastructures with OpenStreetMap***, Doctoral Thesis, Heidelberg University, 2022](https://heibox.uni-heidelberg.de/f/48863db65ab54c71a1aa/) 
+
 <h3>Journal Papers (peer reviewed)</h3>
 
 
