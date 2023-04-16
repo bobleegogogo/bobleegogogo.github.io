@@ -20,7 +20,7 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * <b>Principle Investigator</b>, [HDF4Water: Hierarchical Data Format for Water-related Big Geodata](https://www.nfdi4earth.de/2participate/incubator-lab), funded by the NFDI4Earth consortium, from July, 2022 to Dec, 2022.
 * <b>Co- Principle Investigator</b>, [Coding4Geo: An open-access and interactive coding platform to facilitate E-Teaching in Geospatial Data Analysis](https://www.nfdi4earth.de/2participate/education-training?view=article&id=314&catid=15), funded by the NFDI4Earth consortium, from Oct, 2022 to Feb, 2023.
 
-<h2>Internaltional Conference and workshop</h2>
+<h2>Internaltional Conference</h2>
 
 * <b>Workshop Chair</b>, [GeoHB 2023: Geo-Spatial Computing for Understanding Human Behaviours](https://gsw2023.com/index.php/project/geohb-2023-geo-spatial-computing-for-understanding-human-behaviours/), ISPRS Geospatial Week 2023 in Cairo, Agypt
 * <b>PC member</b>, [The 1st International Workshop on Geographic Information Extraction from Texts (GeoExT)](https://geo-ext.github.io/), ECIR 2023 in Dublin, April 2, 2023
