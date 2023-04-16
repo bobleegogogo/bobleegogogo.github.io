@@ -26,7 +26,7 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * <b>PC member</b>, [The 1st International Workshop on Geographic Information Extraction from Texts (GeoExT)](https://geo-ext.github.io/), ECIR 2023 in Dublin, April 2, 2023
 * <b>PC member</b>, [Academic Track, State of the Map 2022](https://2022.stateofthemap.org/calls/academic/) 
 * <b>PC member</b>, [The 3rd Data-driven Humanitarian Mapping workshop](https://kdd-humanitarian-mapping.herokuapp.com/#org), ACM SIGKDD Conference on Knowledge Discovery and Data Mining 2022
-* <b>PC member</b>, [The 5th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery (GeoAI) 2022 in Seattle](https://geoai.ornl.gov/acmsigspatial-geoai/2022-2/)
+* <b>PC member</b>, [The 5th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery (GeoAI)](https://geoai.ornl.gov/acmsigspatial-geoai/2022-2/), ACM SIGSPATIAL Conference in Seattle 2022
 
 
 
