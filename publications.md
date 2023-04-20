@@ -8,8 +8,9 @@ permalink: /publications/
 
 <h3>Journal Papers (peer reviewed)</h3>
 
+**(J12)** Knoblauch, S., **Li, H.**, Lautenbach, S., Elshiaty, Y., Rocha, A., Resch, B., Arifi, D., Jänish, T., Morales, I., Zipf, A. (2023) [***Semi-supervised water tank detection to support vector control of emerging infectious diseases transmitted by Aedes Aegypti***, in International Journal of Applied Earth Observation and Geoinformation, April 2023.](https://doi.org/10.1016/j.jag.2023.103304)
 
-**(J11)** Dax, G., Nagarajan, S., **Li, H.** and Werner, M., (2022) [***Compression Supports Spatial Deep Learning***, in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, December 2022](https://doi.org/10.1109/JSTARS.2022.3226563)
+**(J11)** Dax, G., Nagarajan, S., **Li, H.** and Werner, M., (2022) [***Compression Supports Spatial Deep Learning***, in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, December 2022.](https://doi.org/10.1109/JSTARS.2022.3226563)
 
 **(J10)** **Li, H.**, Yuan, Z., Novack, T., Huang, W., Zipf, A., (2022) [***Understanding spatiotemporal trip purposes of urban micro-mobility from the lens of dockless e-scooter sharing***. Computers, Environment and Urban Systems, 96, 101848, June 2022](https://doi.org/10.1016/j.compenvurbsys.2022.101848)
 
