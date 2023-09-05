@@ -38,9 +38,10 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 
 * International Journal of Applied Earth Observation and Geoinformation, Elsevier
 * Annals of the American Association of Geographers, Taylor & Francis
+* IEEE Transaction on Geoscience and Remote Sensing (TGRS), IEEE 
 * IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), IEEE
-* Remote Sensing, MDPI
 * ISPRS International Journal of Geo-Information, MDPI
+* Remote Sensing, MDPI
 * Arabian Journal of Geosciences, Springer
 * IEEE Geoscience and Remote Sensing Letters, IEEE
 
