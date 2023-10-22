@@ -2,11 +2,23 @@
 title: Publications
 permalink: /publications/
 ---
+
+<h3>Feature Papers</h3>
+
+**Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
+
+Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, in press.](https://arxiv.org/abs/2309.16499)
+
+
 <h3>Dissertation</h3>
 
 **Li, H.** (2022) [***Deep Learning from Heterogeneous Geospatial Data for Automated Mapping of Man-made Infrastructures with OpenStreetMap***, Doctoral Thesis, Heidelberg University, 2022](https://heibox.uni-heidelberg.de/f/48863db65ab54c71a1aa/) 
 
 <h3>Journal Papers (peer reviewed)</h3>
+
+**(J14)** Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, in press.](https://arxiv.org/abs/2309.16499)
+
+**(J13)** Hu, X., Zhou, Z., **Li, H.**, Hu, Y., Gu, F., Kersten, J., Fan, H., & Klan, F. (2023). [***Location reference recognition from texts: A survey and comparison***. ACM Computing Surveys.](https://doi.org/10.1145/3625819)
 
 **(J12)** Knoblauch, S., **Li, H.**, Lautenbach, S., Elshiaty, Y., Rocha, A., Resch, B., Arifi, D., Jänish, T., Morales, I., Zipf, A. (2023) [***Semi-supervised water tank detection to support vector control of emerging infectious diseases transmitted by Aedes Aegypti***, in International Journal of Applied Earth Observation and Geoinformation, April 2023.](https://doi.org/10.1016/j.jag.2023.103304)
 
@@ -39,6 +51,8 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 
 <h3>Conference Proceedings (peer reviewed)</h3>
+
+**(C7)** **Li, H.**, Yuan, Z., Dax, G., Fan, H., Zipf, A. & Werner, M. (2023). [***Semi-supervised Learning from Street-View Images and OpenStreetMap for Automatic Building Height Estimation***. The 12 International Conference on Geographic Information Science. 12 - 15th September, 2023. Leeds, UK (GISicence 2023 Full Paper)](10.4230/LIPIcs.GIScience.2023.7)
 
 **(C6)**  Werner, M. and **Li, H.** 2022. [***AtlasHDF: an efficient big data framework for GeoAI***. In Proceedings of the 10th ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data (BigSpatial '22). Association for Computing Machinery, New York, NY, USA, 1–7.](https://doi.org/10.1145/3557917.3567615)
 
