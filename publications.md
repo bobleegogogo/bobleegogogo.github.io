@@ -52,7 +52,15 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 <h3>Conference Proceedings (peer reviewed)</h3>
 
-**(C7)** **Li, H.**, Yuan, Z., Dax, G., Fan, H., Zipf, A. & Werner, M. (2023). [***Semi-supervised Learning from Street-View Images and OpenStreetMap for Automatic Building Height Estimation***. The 12 International Conference on Geographic Information Science. 12 - 15th September, 2023. Leeds, UK (GISicence 2023 Full Paper)](10.4230/LIPIcs.GIScience.2023.7)
+**(C11)** **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
+
+**(C10)** **Li, H.**, Yuan, Z., Dax, G., Fan, H., Zipf, A. & Werner, M. (2023). [***Semi-supervised Learning from Street-View Images and OpenStreetMap for Automatic Building Height Estimation***. The 12 International Conference on Geographic Information Science. 12 - 15th September, 2023. Leeds, UK (GISicence 2023 Full Paper)](10.4230/LIPIcs.GIScience.2023.7)
+
+**(C9)**  Werner, M., **Li, H.**, Zollner, J. M., Teuscher, B., & Deuser., F. (2023). [Bavaria Buildings - A Novel Dataset for Building Footprint Extraction, Instance Segmentation, and Data Quality Estimation (Data and Resources Paper). Proceedings of the 31st International Conference on Advances in Geographic Information Systems (ACM SIGSPATAIL GIS’23).](https://doi.org/10.1145/3589132.3625658) 
+
+**(C8)** Teuscher, B., Geißendörfer, O., Luo, X., **Li, H.**, Anders, K., Holst, C., & Werner, M. (2023). [Efficient In-Memory Point Cloud Query Processing. 18th International 3DGeoInfo Conference 2023.](https://www.bgd.ed.tum.de/pdf/2023_pointcloudqueries_Teuscher.pdf) 
+
+**(C7)** Liu, Z., Wu, J., **Li, H.**, & Werner, M. (2023). [Spatio-temporal Analysis of Urban Economic Resilience during Covid-19 with Multilayer Complex Networks. The ISPRS Geospatial Week 2023, the GeoHB 2023 Workshop.](https://www.bgd.ed.tum.de/pdf/2023_multilayer_Zhihang.pdf)
 
 **(C6)**  Werner, M. and **Li, H.** 2022. [***AtlasHDF: an efficient big data framework for GeoAI***. In Proceedings of the 10th ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data (BigSpatial '22). Association for Computing Machinery, New York, NY, USA, 1–7.](https://doi.org/10.1145/3557917.3567615)
 
