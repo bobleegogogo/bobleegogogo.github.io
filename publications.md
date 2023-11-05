@@ -16,7 +16,7 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Journal Papers (peer reviewed)</h3>
 
-**(J14)** Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, in press.](https://arxiv.org/abs/2309.16499)
+**(J14)** Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, October 2023.](https://doi.org/10.1016/j.rse.2023.113856)
 
 **(J13)** Hu, X., Zhou, Z., **Li, H.**, Hu, Y., Gu, F., Kersten, J., Fan, H., & Klan, F. (2023). [***Location reference recognition from texts: A survey and comparison***. ACM Computing Surveys.](https://doi.org/10.1145/3625819)
 
