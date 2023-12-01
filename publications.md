@@ -54,13 +54,11 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 <h3>Conference Proceedings (peer reviewed)</h3>
 
-**(C13)** Luo, X., Walther, P., Mansour, W., Teuscher, B., Zollner, J. M., **Li, H.,** & Werner, M (2023). [***Exploring GeoAI Methods for Supraglacial Lake Mapping on Greenland Ice Sheet***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://doi.org/10.1145/3589132.3629971)
+**(C12)** **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
-**(C12)** Werner, M., **Li, H.**, Zollner, J. M., Teuscher, B., & Deuser., F.  (2023). [***Bavaria Buildings - A Novel Dataset for Building Footprint Extraction, Instance Segmentation, and Data Quality Estimation (Data and Resources Paper)***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://doi.org/10.1145/3589132.3625658)
+**(C11)** **Li, H.**, Yuan, Z., Dax, G., Fan, H., Zipf, A. & Werner, M. (2023). [***Semi-supervised Learning from Street-View Images and OpenStreetMap for Automatic Building Height Estimation***. The 12 International Conference on Geographic Information Science. 12 - 15th September, 2023. Leeds, UK (GISicence 2023 Full Paper)](10.4230/LIPIcs.GIScience.2023.7)
 
-**(C11)** **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
-
-**(C10)** **Li, H.**, Yuan, Z., Dax, G., Fan, H., Zipf, A. & Werner, M. (2023). [***Semi-supervised Learning from Street-View Images and OpenStreetMap for Automatic Building Height Estimation***. The 12 International Conference on Geographic Information Science. 12 - 15th September, 2023. Leeds, UK (GISicence 2023 Full Paper)](10.4230/LIPIcs.GIScience.2023.7)
+**(C10)** Luo, X., Walther, P., Mansour, W., Teuscher, B., Zollner, J. M., **Li, H.,** & Werner, M (2023). [***Exploring GeoAI Methods for Supraglacial Lake Mapping on Greenland Ice Sheet***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://doi.org/10.1145/3589132.3629971)
 
 **(C9)**  Werner, M., **Li, H.**, Zollner, J. M., Teuscher, B., & Deuser., F. (2023). [Bavaria Buildings - A Novel Dataset for Building Footprint Extraction, Instance Segmentation, and Data Quality Estimation (Data and Resources Paper). Proceedings of the 31st International Conference on Advances in Geographic Information Systems (ACM SIGSPATAIL GIS’23).](https://doi.org/10.1145/3589132.3625658) 
 
