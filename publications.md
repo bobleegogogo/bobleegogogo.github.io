@@ -16,6 +16,8 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Journal Papers (peer reviewed)</h3>
 
+**(J15)** Liu, Z., Fang, C., **Li, H.**, Wu, J., Zhou, L., Werner, M.2023). [***Efficiency and equality of the multimodal travel between public transit and bike-sharing accounting for multiscale***. Sustainable Cities and Society (In press), 2023.](https://www.sciencedirect.com/journal/sustainable-cities-and-society)
+
 **(J14)** Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, October 2023.](https://doi.org/10.1016/j.rse.2023.113856)
 
 **(J13)** Hu, X., Zhou, Z., **Li, H.**, Hu, Y., Gu, F., Kersten, J., Fan, H., & Klan, F. (2023). [***Location reference recognition from texts: A survey and comparison***. ACM Computing Surveys.](https://doi.org/10.1145/3625819)
@@ -51,6 +53,10 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 
 <h3>Conference Proceedings (peer reviewed)</h3>
+
+**(C13)** Luo, X., Walther, P., Mansour, W., Teuscher, B., Zollner, J. M., **Li, H.,** & Werner, M (2023). [***Exploring GeoAI Methods for Supraglacial Lake Mapping on Greenland Ice Sheet***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://doi.org/10.1145/3589132.3629971)
+
+**(C12)** Werner, M., **Li, H.**, Zollner, J. M., Teuscher, B., & Deuser., F.  (2023). [***Bavaria Buildings - A Novel Dataset for Building Footprint Extraction, Instance Segmentation, and Data Quality Estimation (Data and Resources Paper)***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://doi.org/10.1145/3589132.3625658)
 
 **(C11)** **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
