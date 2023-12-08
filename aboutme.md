@@ -7,9 +7,19 @@ I am now a lecturer and research associate in Technical University of Munich, Ge
 
 Besides research, I enjoy basketball, cylcing, and running. In addition, I'm also a big fan of cooking for my family, just cannot stop trying all differents delicious cuisines.
 
+<h2>Research Interests</h2>
+
+* volunteered geographic information
+* geospatial machine learning
+* multi-sensor data fusion
+* geo-semantics
+* intelligent urban mobility
+* remote sensing
+
 <h2>Teaching</h2>
 
-* [Principles of Spatial Data Mining and Machine Learning, Lecture & Excercise (3 SWS), WS2022](https://www.bgd.ed.tum.de/en/teaching/wise2022/lecture_sdmml/), Technical University of Munich
+* [Principles of Spatial Data Mining and Machine Learning, Lecture & Excercise (3 SWS), WS2022, WS2023](https://www.bgd.ed.tum.de/en/teaching/wise2022/lecture_sdmml/), Technical University of Munich
+* [Selected Topic in Big Geospatial Data, Lecture & Seminar (3 SWS), SS2022, WS2023](https://www.bgd.ed.tum.de/en/teaching/wise2022/seltop/), Technical University of Munich
 * [Research Seminar Big Geospatial Data, Seminar (2 SWS), WS 2022](https://www.bgd.ed.tum.de/en/teaching/wise2022/research_seminar/), Technical University of Munich
 * [Geographical Analysis of Social Media Data (GASMD), Seminar & Lab (2 SWS), WS2021](https://lsf.uni-heidelberg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=350079&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung), Heidelberg University.
 * Machine Learning for Geographic Applications, Seminar & Lab (2 SWS), SS 2021, Heidelberg University.
@@ -40,10 +50,11 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * Annals of the American Association of Geographers, Taylor & Francis
 * IEEE Transaction on Geoscience and Remote Sensing (TGRS), IEEE 
 * IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), IEEE
+* IEEE Geoscience and Remote Sensing Letters, IEEE
 * ISPRS International Journal of Geo-Information, MDPI
 * Remote Sensing, MDPI
 * Arabian Journal of Geosciences, Springer
-* IEEE Geoscience and Remote Sensing Letters, IEEE
+* Information Processing and Management, Elsevier
 
 <h2>Invited Talks</h2>
 
@@ -52,14 +63,12 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://mp.weixin.qq.com/s/G2GRet3trCF75zh4aHIjGw), the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University (LIESMARS), April 2022.
 * Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap, College of Surverying and Geo-infromatics, Tongji University, November 2021.
 
+<h2>Memberships</h2>
 
-<h2>Research Interests</h2>
+* IEEE Geoscience and Remote Sensing Society (GRSS) Member
+* ACM SIGSPATIAL Member
+* American Association of Geographers (AAG) Member
 
-* volunteered geographic information
-* geospatial machine learning
-* multi-sensor data fusion
-* geo-semantics
-* intelligent urban mobility
-* remote sensing
+
 
 
