@@ -63,6 +63,13 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://mp.weixin.qq.com/s/G2GRet3trCF75zh4aHIjGw), the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University (LIESMARS), April 2022.
 * Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap, College of Surverying and Geo-infromatics, Tongji University, November 2021.
 
+<h2>Awards</h2>
+
+* [ISPRS Best Poster Award in the XXIV ISPRS Congress in Nice (2022)](https://www.isprs.org/society/awards/poster.aspx)
+* [ACM SIGSPATIAL GISCup runner-up Award (2023)](https://sigspatial2023.sigspatial.org/awards/)
+* The Kurt-Hiehle-Foundation Scholarship (2022), Heidelberg University
+* The STIBET/DAAD scholarship (2016), University of Stuttgart
+
 <h2>Memberships</h2>
 
 * IEEE Geoscience and Remote Sensing Society (GRSS) Member
