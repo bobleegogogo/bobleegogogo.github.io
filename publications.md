@@ -48,11 +48,19 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Editorials (peer reviewed)</h3> 
 
+**(E4)** Grinberger, A.Y., **Li, H.**, Liu, P., Yeboah, G., Juhász, L., Coetzee, S., Mooney, P., Sarretta, A., Anderson, J., & Minghini, M. (2023). [***OpenStreetMap as an Emerging Scientific Discipline: Reflections from the OSM Science 2023*** In: Minghini, M., Li, H., Grinberger, A.Y., Liu, P., Yeboah, G., Juhász, L., Coetzee, S., Mooney, P., Sarretta, A., & Anderson, J., & Minghini, M.(Eds.). Proceedings of the OSM Science at State of the Map Europe 2023, Antwerp, Belgium, 10-12 November 2023. Available at https://zenodo.org/communities/osmscience-2023](https://zenodo.org/communities/osmscience-2023)
+
+**(E3)** Huang, W., Chen, B. Y., Biljecki, F., Yan, Y., Grinberger, Y., & **Li, H**. (2023). [***Preface: Workshop “GeoHB 2023: Geo-Spatial Computing for Understanding Human Behaviours”.*** The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 1985-1986.](https://doi.org/10.5194/isprs-archives-XLVIII-1-W2-2023-1985-2023)
+
+**(E2)** **Li, H.**, Cavallaro, G., Heras, D. B., Lunga, D., Werner, M., & Züfle, A. (2023) [***Proceedings of the 2nd ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data (GeoSearch '23)***](https://dl.acm.org/doi/pdf/10.1145/3615890)
+
 **(E1)** Grinberger, A.Y., Liu, P., **Li, H.**, Juhász, L., & Minghini, M. (2022). [***OpenStreetMap, beyond just Data: The Academic Track at State of the Map 2022.***
 In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proceedings of the Academic Track at State of the Map 2022, Florence, Italy, 19-21 August 2022.](https://zenodo.org/record/7004791#.YwXbzXbP3Z8) Available at https://zenodo.org/communities/sotm-22, DOI: 10.5281/zenodo.7004424
 
 
 <h3>Conference Proceedings (peer reviewed)</h3>
+
+**(C13)** **Li, H.**, & Sun, Y. (2023). [***Beyond Two Dimensions: Large-Scale Building Height Mapping in OpenStreetMap via Synthetic Aperture Radar and Street-View Imagery.*** Proceedings of the OSM Science at State of the Map Europe 2023, Antwerp, Belgium, 10-12 November 2023. Available at https://zenodo.org/communities/osmscience-2023](https://doi.org/10.5281/zenodo.10443329)
 
 **(C12)** **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
