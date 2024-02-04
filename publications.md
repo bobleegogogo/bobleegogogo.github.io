@@ -16,7 +16,9 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Journal Papers (peer reviewed)</h3>
 
-**(J15)** Liu, Z., Fang, C., **Li, H.**, Wu, J., Zhou, L., Werner, M.2023). [***Efficiency and equality of the multimodal travel between public transit and bike-sharing accounting for multiscale***. Sustainable Cities and Society (In press), 2023.](https://www.sciencedirect.com/journal/sustainable-cities-and-society)
+**(J16)** Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J., Yokoya, N., **Li, H.**, Ghamisi, P., Jia, X., Plaza, A., Gamba, P., Benediktsson, J.A., & Chanussot, J. (2024). [***SpectralGPT: Spectral Foundation Model***. IEEE Transactions on Pattern Analysis and Machine Intelligence (In press), 2024](https://arxiv.org/abs/2311.07113)
+
+**(J15)** Liu, Z., Fang, C., **Li, H.**, Wu, J., Zhou, L., Werner, M. (2023). [***Efficiency and equality of the multimodal travel between public transit and bike-sharing accounting for multiscale***. Sustainable Cities and Society, 101, 105096, 2023.](https://doi.org/https://doi.org/10.1016/j.scs.2023.105096)
 
 **(J14)** Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, October 2023.](https://doi.org/10.1016/j.rse.2023.113856)
 
