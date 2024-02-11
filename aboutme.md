@@ -16,6 +16,28 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * intelligent urban mobility
 * remote sensing
 
+<h2>Invited Talks</h2>
+
+* [Deep Learning from Volunteered Geographical Information and Heterogeneous Geospatial Data](https://www.grm.cuhk.edu.hk/cab/dept-seminars/2023/Seminar20230912.pdf), Department of Geography and Resource Managemen, the Chinese University of Hong Kong (CUHK), September, 2023.
+* A Conceptual Model for Converting OpenStreetMap Contribution to Geospatial Machine Learning Training Data, Aerospace Information Research Institute, Chinese Academy of Sciences (CAS), May, 2022
+* [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://ual.sg/seminars/), the Urban Analytics Lab seminar series, National University of Singapore (NUS), April 2022.
+* [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://mp.weixin.qq.com/s/G2GRet3trCF75zh4aHIjGw), the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University (LIESMARS), April 2022.
+* Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap, College of Surverying and Geo-infromatics, Tongji University, November 2021.
+
+<h2>Awards</h2>
+
+* [ISPRS Best Poster Award in the XXIV ISPRS Congress in Nice (2022)](https://www.isprs.org/society/awards/poster.aspx)
+* [ACM SIGSPATIAL GISCup runner-up Award (2023)](https://sigspatial2023.sigspatial.org/awards/)
+* The Kurt-Hiehle-Foundation Scholarship (2022), Heidelberg University
+* The STIBET/DAAD scholarship (2016), University of Stuttgart
+
+<h2>Project</h2>
+
+* <b>Principle Investigator</b>, [HDF4Water: Hierarchical Data Format for Water-related Big Geodata](https://www.nfdi4earth.de/2participate/incubator-lab), funded by the NFDI4Earth consortium, from July, 2022 to Dec, 2022.
+* <b>Co- Principle Investigator</b>, [Coding4Geo: An open-access and interactive coding platform to facilitate E-Teaching in Geospatial Data Analysis](https://www.nfdi4earth.de/2participate/education-training?view=article&id=314&catid=15), funded by the NFDI4Earth consortium, from Oct, 2022 to Feb, 2023.
+* <b>Principle Staff Researcher</b>, GeoAI4Water - Methods for Prediction and Mapping of Water-Related Infrastructure from Heterogeneous Geodata Sources, funded by Anonymous Industrial Partner, from July 2019 to June 2022.
+* <b>Staff Researcher</b>, [DeepVGI – Deep Learning with Volunteered Geographic Information](https://www.geog.uni-heidelberg.de/gis/deepvgi.html), funded by Klaus Tschira Stiftung.
+
 <h2>Teaching</h2>
 
 * [Principles of Spatial Data Mining and Machine Learning, Lecture & Excercise (3 SWS), WS2022, WS2023](https://www.bgd.ed.tum.de/en/teaching/wise2022/lecture_sdmml/), Technical University of Munich
@@ -25,12 +47,7 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * Machine Learning for Geographic Applications, Seminar & Lab (2 SWS), SS 2021, Heidelberg University.
 * Machine Learning for Geographic Applications, Seminar & Lab (2 SWS), SS 2020, Heidelberg University.
 
-<h2>Project</h2>
 
-* <b>Principle Investigator</b>, [HDF4Water: Hierarchical Data Format for Water-related Big Geodata](https://www.nfdi4earth.de/2participate/incubator-lab), funded by the NFDI4Earth consortium, from July, 2022 to Dec, 2022.
-* <b>Co- Principle Investigator</b>, [Coding4Geo: An open-access and interactive coding platform to facilitate E-Teaching in Geospatial Data Analysis](https://www.nfdi4earth.de/2participate/education-training?view=article&id=314&catid=15), funded by the NFDI4Earth consortium, from Oct, 2022 to Feb, 2023.
-* <b>Principle Staff Researcher</b>, GeoAI4Water - Methods for Prediction and Mapping of Water-Related Infrastructure from Heterogeneous Geodata Sources, funded by Anonymous Industrial Partner, from July 2019 to June 2022.
-* <b>Staff Researcher</b>, [DeepVGI – Deep Learning with Volunteered Geographic Information](https://www.geog.uni-heidelberg.de/gis/deepvgi.html), funded by Klaus Tschira Stiftung.
 
 <h2>Internaltional Conference</h2>
 
@@ -46,29 +63,19 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 
 <h2>Scientific Reviewing</h2>
 
-* International Journal of Applied Earth Observation and Geoinformation, Elsevier
+
 * Annals of the American Association of Geographers, Taylor & Francis
 * IEEE Transaction on Geoscience and Remote Sensing (TGRS), IEEE 
 * IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), IEEE
 * IEEE Geoscience and Remote Sensing Letters, IEEE
+* International Journal of Applied Earth Observation and Geoinformation, Elsevier
+* International Journal of Digital Earth, Taylor & Francis
 * ISPRS International Journal of Geo-Information, MDPI
 * Remote Sensing, MDPI
 * Arabian Journal of Geosciences, Springer
 * Information Processing and Management, Elsevier
 
-<h2>Invited Talks</h2>
 
-* A Conceptual Model for Converting OpenStreetMap Contribution to Geospatial Machine Learning Training Data, Aerospace Information Research Institute, Chinese Academy of Sciences (CAS), May, 2022
-* [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://ual.sg/seminars/), the Urban Analytics Lab seminar series, National University of Singapore (NUS), April 2022.
-* [Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap](https://mp.weixin.qq.com/s/G2GRet3trCF75zh4aHIjGw), the State Key Laboratory of Information Engineering in Surveying, Mapping and Remote Sensing, Wuhan University (LIESMARS), April 2022.
-* Deep learning from Volunteered Geographical Information: a case study of humanitarian mapping with OpenStreetMap, College of Surverying and Geo-infromatics, Tongji University, November 2021.
-
-<h2>Awards</h2>
-
-* [ISPRS Best Poster Award in the XXIV ISPRS Congress in Nice (2022)](https://www.isprs.org/society/awards/poster.aspx)
-* [ACM SIGSPATIAL GISCup runner-up Award (2023)](https://sigspatial2023.sigspatial.org/awards/)
-* The Kurt-Hiehle-Foundation Scholarship (2022), Heidelberg University
-* The STIBET/DAAD scholarship (2016), University of Stuttgart
 
 <h2>Memberships</h2>
 
