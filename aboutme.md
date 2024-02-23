@@ -65,6 +65,7 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 
 
 * Annals of the American Association of Geographers, Taylor & Francis
+* Transactions in GIS, John Wiley & Sons, Inc
 * IEEE Transaction on Geoscience and Remote Sensing (TGRS), IEEE 
 * IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), IEEE
 * IEEE Geoscience and Remote Sensing Letters, IEEE
