@@ -7,7 +7,13 @@ permalink: /publications/
 
 **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
-Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, in press.](https://arxiv.org/abs/2309.16499)
+Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J., Yokoya, N., **Li, H.**, Ghamisi, P., Jia, X., Plaza, A., Gamba, P., Benediktsson, J.A., & Chanussot, J. (2024). [***SpectralGPT: Spectral Foundation Model***. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024](https://doi.org/10.1109/TPAMI.2024.3362475)
+
+**Li, H.**, Wang, J., Teuscher, B., Luo, P., Hong, D., Mai, G., & Werner, M. (2024). [***GIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding.*** ICLR 2024 Workshop on Machine Learning in Remote Sensing(ML4RS)](https://www.bgd.ed.tum.de/pdf/2024_GIMI_Hao.pdf)
+
+Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, October 2023.](https://doi.org/10.1016/j.rse.2023.113856)
+
+
 
 
 <h3>Dissertation</h3>
@@ -15,6 +21,8 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 **Li, H.** (2022) [***Deep Learning from Heterogeneous Geospatial Data for Automated Mapping of Man-made Infrastructures with OpenStreetMap***, Doctoral Thesis, Heidelberg University, 2022](https://heibox.uni-heidelberg.de/f/48863db65ab54c71a1aa/) 
 
 <h3>Journal Papers (peer reviewed)</h3>
+
+
 
 **(J16)** Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J., Yokoya, N., **Li, H.**, Ghamisi, P., Jia, X., Plaza, A., Gamba, P., Benediktsson, J.A., & Chanussot, J. (2024). [***SpectralGPT: Spectral Foundation Model***. IEEE Transactions on Pattern Analysis and Machine Intelligence (In press), 2024](https://arxiv.org/abs/2311.07113)
 
@@ -61,6 +69,8 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 
 <h3>Conference Proceedings (peer reviewed)</h3>
+
+**(C13)** **Li, H.**, Wang, J., Teuscher, B., Luo, P., Hong, D., Mai, G., & Werner, M. (2024). [***GIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding.*** ICLR 2024 Workshop on Machine Learning in Remote Sensing(ML4RS)](https://www.bgd.ed.tum.de/pdf/2024_GIMI_Hao.pdf)
 
 **(C13)** **Li, H.**, & Sun, Y. (2023). [***Beyond Two Dimensions: Large-Scale Building Height Mapping in OpenStreetMap via Synthetic Aperture Radar and Street-View Imagery.*** Proceedings of the OSM Science at State of the Map Europe 2023, Antwerp, Belgium, 10-12 November 2023. Available at https://zenodo.org/communities/osmscience-2023](https://doi.org/10.5281/zenodo.10443329)
 
