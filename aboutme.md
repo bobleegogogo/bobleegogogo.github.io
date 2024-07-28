@@ -66,6 +66,7 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * ISPRS Journal of Photogrammetry and Remote Sensing, Elsevier
 * Annals of the American Association of Geographers, Taylor & Francis
 * International Journal of Geographical Information Science, Taylor & Francis
+* Remote Sensing of Environment, Elsevier
 * Transactions in GIS, John Wiley & Sons, Inc
 * The Professional Geographer, Taylor & Francis
 * IEEE Transaction on Geoscience and Remote Sensing (TGRS), IEEE 
