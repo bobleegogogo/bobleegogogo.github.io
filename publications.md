@@ -7,7 +7,7 @@ permalink: /publications/
 
 **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
-Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J., Yokoya, N., **Li, H.**, Ghamisi, P., Jia, X., Plaza, A., Gamba, P., Benediktsson, J.A., & Chanussot, J. (2024). [***SpectralGPT: Spectral Foundation Model***. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2024](https://doi.org/10.1109/TPAMI.2024.3362475)
+Yuan, Z., Kerckhoffs, J., **Li, H.**, Khan, J., Hoek, G., & Vermeulen, R. (2024). [***Hyperlocal Air Pollution Mapping: A Scalable Transfer Learning LUR Approach for Mobile Monitoring***. Environmental Science & Technology, 2024.](https://pubs.acs.org/doi/full/10.1021/acs.est.4c06144)
 
 **Li, H.**, Wang, J., Teuscher, B., Luo, P., Hong, D., Mai, G., & Werner, M. (2024). [***GIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding.*** ICLR 2024 Workshop on Machine Learning in Remote Sensing(ML4RS)](https://www.bgd.ed.tum.de/pdf/2024_GIMI_Hao.pdf)
 
@@ -22,7 +22,7 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Journal Papers (peer reviewed)</h3>
 
-
+**(J17)** Yuan, Z., Kerckhoffs, J., **Li, H.**, Khan, J., Hoek, G., & Vermeulen, R. (2024). [***Hyperlocal Air Pollution Mapping: A Scalable Transfer Learning LUR Approach for Mobile Monitoring***. Environmental Science & Technology, 2024.](https://pubs.acs.org/doi/full/10.1021/acs.est.4c06144)
 
 **(J16)** Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J., Yokoya, N., **Li, H.**, Ghamisi, P., Jia, X., Plaza, A., Gamba, P., Benediktsson, J.A., & Chanussot, J. (2024). [***SpectralGPT: Spectral Foundation Model***. IEEE Transactions on Pattern Analysis and Machine Intelligence (In press), 2024](https://arxiv.org/abs/2311.07113)
 
