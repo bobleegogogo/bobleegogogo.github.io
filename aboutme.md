@@ -7,6 +7,13 @@ I am now a lecturer and research associate in Technical University of Munich, Ge
 
 Besides research, I enjoy basketball, cylcing, and running. In addition, I'm also a big fan of cooking for my family, just cannot stop trying all differents delicious cuisines.
 
+<h2>Special Issues and Workshops</h2>
+
+* <b>Urban AI for a Sustainable Built Environment</b>, special issue in Environment and Planning B: Urban Analytics and City Science. DDL: 1 December, 2024. [Submission link](https://journals.sagepub.com/page/epb/collections/special-issues)
+* <b>Advances in AI-Driven Geospatial Analysis and Data Generation</b>, special issue in ISPRS International Journal of Geo-Information. DDL: 31 August 2024. [Submission link](https://www.mdpi.com/journal/ijgi/special_issues/G7FR27KZ5J)
+* <b> Geosearch 2024 </b>, workshop orgnaized in the 32nd ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2024). DDL: 31 August 2024. [Submission link](https://geosearch-workshop.github.io/geosearch2024/)
+
+
 <h2>Research Interests</h2>
 
 * volunteered geographic information
