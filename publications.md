@@ -7,7 +7,7 @@ permalink: /publications/
 
 **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
-Yuan, Z., Kerckhoffs, J., **Li, H.**, Khan, J., Hoek, G., & Vermeulen, R. (2024). [***Hyperlocal Air Pollution Mapping: A Scalable Transfer Learning LUR Approach for Mobile Monitoring***. Environmental Science & Technology, 2024.](https://pubs.acs.org/doi/full/10.1021/acs.est.4c06144)
+Mai, G., Yao, X., Xie, Y., Rao, J., **Li, H.**, Zhu, Q., Li, Z. and Lao, N., (2024). [***SRL: Towards a General-Purpose Framework for Spatial Representation Learning***. In Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems (pp. 465-468).](https://dl.acm.org/doi/abs/10.1145/3678717.3691246)
 
 **Li, H.**, Wang, J., Teuscher, B., Luo, P., Hong, D., Mai, G., & Werner, M. (2024). [***GIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding.*** ICLR 2024 Workshop on Machine Learning in Remote Sensing(ML4RS)](https://www.bgd.ed.tum.de/pdf/2024_GIMI_Hao.pdf)
 
@@ -58,6 +58,8 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Editorials (peer reviewed)</h3> 
 
+**(E5)**  **Li, H.**, Potnis, A., Li, W., Lunga, D., Werner, M., & Züfle, A. (Eds.). (2024). [***Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data.***](https://dl.acm.org/doi/abs/10.1145/3681769)
+
 **(E4)** Grinberger, A.Y., **Li, H.**, Liu, P., Yeboah, G., Juhász, L., Coetzee, S., Mooney, P., Sarretta, A., Anderson, J., & Minghini, M. (2023). [***OpenStreetMap as an Emerging Scientific Discipline: Reflections from the OSM Science 2023*** In: Minghini, M., Li, H., Grinberger, A.Y., Liu, P., Yeboah, G., Juhász, L., Coetzee, S., Mooney, P., Sarretta, A., & Anderson, J., & Minghini, M.(Eds.). Proceedings of the OSM Science at State of the Map Europe 2023, Antwerp, Belgium, 10-12 November 2023. Available at https://zenodo.org/communities/osmscience-2023](https://zenodo.org/communities/osmscience-2023)
 
 **(E3)** Huang, W., Chen, B. Y., Biljecki, F., Yan, Y., Grinberger, Y., & **Li, H**. (2023). [***Preface: Workshop “GeoHB 2023: Geo-Spatial Computing for Understanding Human Behaviours”.*** The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 1985-1986.](https://doi.org/10.5194/isprs-archives-XLVIII-1-W2-2023-1985-2023)
@@ -69,6 +71,10 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 
 <h3>Conference Proceedings (peer reviewed)</h3>
+
+**(C15)** Wang, Z., Du, X., **Li, H.**, & Werner, M. (2024). [***Random Affine Transformation Feature Representation Learning for Fast Polygon Retrieval***. Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data, 22–28.](https://doi.org/10.1145/3681769.3698582)
+
+**(C14)** Mai, G., Yao, X., Xie, Y., Rao, J., **Li, H.**, Zhu, Q., Li, Z. and Lao, N., (2024). [***SRL: Towards a General-Purpose Framework for Spatial Representation Learning***. In Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems (pp. 465-468).](https://dl.acm.org/doi/abs/10.1145/3678717.3691246)
 
 **(C13)** **Li, H.**, Wang, J., Teuscher, B., Luo, P., Hong, D., Mai, G., & Werner, M. (2024). [***GIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding.*** ICLR 2024 Workshop on Machine Learning in Remote Sensing(ML4RS)](https://www.bgd.ed.tum.de/pdf/2024_GIMI_Hao.pdf)
 
