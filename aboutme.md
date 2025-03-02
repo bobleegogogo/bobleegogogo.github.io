@@ -3,7 +3,7 @@ title:        "About Me"
 permalink: /aboutme/
 ---
 
-I am now a Lecturer in the Department of Geography, National University of Singapore (NUS), Singapore. Prior to NUS, I was a Postdoc researcher in Techinical University of Munich (TUM). I received my Ph.D. in the GIScience research group at the Institute of Geography in Heidelberg University, Germany. I got my MS.c degree from University of Stuttgart, Germany, where I was major in Geomatics engineering. Before came to Germany, I got my double BS.c degrees in both Geographical Information Systems and Computer Science at Wuhan University, China. 
+I am now a Lecturer in the Department of Geography, National University of Singapore (NUS), Singapore. Prior to NUS, I was a senior researcher in Techinical University of Munich (TUM). I received my Ph.D. in the GIScience research group at the Institute of Geography in Heidelberg University, Germany. I got my MS.c degree from University of Stuttgart, Germany, where I was major in Geomatics engineering. Before came to Germany, I got my double BS.c degrees in both Geographical Information Systems and Computer Science at Wuhan University, China. 
 
 Besides research, I enjoy basketball, cylcing, and running. In addition, I'm also a big fan of cooking for my family, just cannot stop trying all differents delicious cuisines.
 
