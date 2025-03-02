@@ -2,11 +2,14 @@
 title:        "CV"
 permalink: /career/
 ---
-07.2022-now
-:   **Lecturer/Research Associate**; Professorship for Big Geospatial Data Management, Technical University of Munich, Munich, Germany
+03.2025- now
+:   **Lecturer**; Department of Geography, National University of Singapore, Singapore.
+
+07.2022- 02.2025
+:   **Postdoc researcher**; Professorship for Big Geospatial Data Management, Technical University of Munich, Munich, Germany
 
 10.2019 - 11.2022
-:   **Dr.rer.nat, Geoinformatics**; Giscience Chair, Heidelberg University, Heidelberg, Germany
+:   **Dr. rer. nat, Geoinformatics**; Giscience Chair, Heidelberg University, Heidelberg, Germany
 
 03.2018 - 06.2022
 :   **Research Associate**; Giscience Chair, Heidelberg University, Heidelberg, Germany
