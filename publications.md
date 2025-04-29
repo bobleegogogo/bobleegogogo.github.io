@@ -5,14 +5,13 @@ permalink: /publications/
 
 <h3>Feature Papers</h3>
 
-**Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
+**Li, H.**, Deuser, F., Yin, W., Luo, X., Walther, P., Mai, G., Huang, W. and Werner, M., 2025. [***Cross-view geolocalization and disaster mapping with street-view and VHR satellite imagery: A case study of Hurricane IAN.*** ISPRS Journal of Photogrammetry and Remote Sensing, 220, pp.841-854.](https://doi.org/10.1016/j.isprsjprs.2025.01.003)
 
-Mai, G., Yao, X., Xie, Y., Rao, J., **Li, H.**, Zhu, Q., Li, Z. and Lao, N., (2024). [***SRL: Towards a General-Purpose Framework for Spatial Representation Learning***. In Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems (pp. 465-468).](https://dl.acm.org/doi/abs/10.1145/3678717.3691246)
-
-**Li, H.**, Wang, J., Teuscher, B., Luo, P., Hong, D., Mai, G., & Werner, M. (2024). [***GIMI: A Geographical Generalizable Image-to-Image Search Engine with Location-explicit Contrastive Embedding.*** ICLR 2024 Workshop on Machine Learning in Remote Sensing(ML4RS)](https://www.bgd.ed.tum.de/pdf/2024_GIMI_Hao.pdf)
+Knoblauch, S., Muthusamy, R.K., Moritz, M., Kang, Y., **Li, H.**, Lautenbach, S., Pereira, R.H., Biljecki, F., Gonzalez, M.C., Barbosa, R. and Hirata, D.V., 2025. [***Crime-associated inequality in geographical access to education: Insights from the municipality of Rio de Janeiro.*** Cities, 160, p.105818.](https://doi.org/10.1016/j.cities.2025.105818)
 
 Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, October 2023.](https://doi.org/10.1016/j.rse.2023.113856)
 
+**Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
 
 
@@ -21,6 +20,14 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 **Li, H.** (2022) [***Deep Learning from Heterogeneous Geospatial Data for Automated Mapping of Man-made Infrastructures with OpenStreetMap***, Doctoral Thesis, Heidelberg University, 2022](https://heibox.uni-heidelberg.de/f/48863db65ab54c71a1aa/) 
 
 <h3>Journal Papers (peer reviewed)</h3>
+
+**(J21)** **Li, H.**, Deuser, F., Yin, W., Luo, X., Walther, P., Mai, G., Huang, W. and Werner, M., 2025. [***Cross-view geolocalization and disaster mapping with street-view and VHR satellite imagery: A case study of Hurricane IAN.*** ISPRS Journal of Photogrammetry and Remote Sensing, 220, pp.841-854.](https://doi.org/10.1016/j.isprsjprs.2025.01.003)
+
+**(J20)** Knoblauch, S., Muthusamy, R.K., Moritz, M., Kang, Y., **Li, H.**, Lautenbach, S., Pereira, R.H., Biljecki, F., Gonzalez, M.C., Barbosa, R. and Hirata, D.V., 2025. [***Crime-associated inequality in geographical access to education: Insights from the municipality of Rio de Janeiro.*** Cities, 160, p.105818.](https://doi.org/10.1016/j.cities.2025.105818)
+
+**(J19)** Yin, W., Xue, Y., Liu, Z., **Li, H.** and Werner, M., 2025. [***LLM-enhanced disaster geolocalization using implicit geoinformation from multimodal data: A case study of Hurricane Harvey. *** International Journal of Applied Earth Observation and Geoinformation, 137, p.104423.](https://doi.org/10.1016/j.jag.2025.104423)
+
+**(J18)** Hochmair, H.H., Juhász, L. and **Li, H.**, 2025. [***Advancing AI-Driven Geospatial Analysis and Data Generation: Methods, Applications and Future Directions.***  ISPRS International Journal of Geo-Information, 14(2), p.56.](https://doi.org/10.3390/ijgi14020056)
 
 **(J17)** Yuan, Z., Kerckhoffs, J., **Li, H.**, Khan, J., Hoek, G., & Vermeulen, R. (2024). [***Hyperlocal Air Pollution Mapping: A Scalable Transfer Learning LUR Approach for Mobile Monitoring***. Environmental Science & Technology, 2024.](https://pubs.acs.org/doi/full/10.1021/acs.est.4c06144)
 
