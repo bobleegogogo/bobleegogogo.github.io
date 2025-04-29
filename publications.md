@@ -14,11 +14,6 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 **Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
 
 
-
-<h3>Dissertation</h3>
-
-**Li, H.** (2022) [***Deep Learning from Heterogeneous Geospatial Data for Automated Mapping of Man-made Infrastructures with OpenStreetMap***, Doctoral Thesis, Heidelberg University, 2022](https://heibox.uni-heidelberg.de/f/48863db65ab54c71a1aa/) 
-
 <h3>Journal Papers (peer reviewed)</h3>
 
 **(J21)** **Li, H.**, Deuser, F., Yin, W., Luo, X., Walther, P., Mai, G., Huang, W. and Werner, M., 2025. [***Cross-view geolocalization and disaster mapping with street-view and VHR satellite imagery: A case study of Hurricane IAN.*** ISPRS Journal of Photogrammetry and Remote Sensing, 220, pp.841-854.](https://doi.org/10.1016/j.isprsjprs.2025.01.003)
@@ -117,3 +112,7 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 **Li, H**., Herfort, B., Zia, M., Zipf, A. (2020): ***Geo-Social-Media und Künstliche Intelligenz zur Unterstützung von humanitärer Hilfe in Afrika***, gis.Business, Volume 2020, Issue 4, 2020, Pages 33-34
 
+
+<h3>Dissertation</h3>
+
+**Li, H.** (2022) [***Deep Learning from Heterogeneous Geospatial Data for Automated Mapping of Man-made Infrastructures with OpenStreetMap***, Doctoral Thesis, Heidelberg University, 2022](https://heibox.uni-heidelberg.de/f/48863db65ab54c71a1aa/) 
