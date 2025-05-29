@@ -7,14 +7,16 @@ permalink: /publications/
 
 **Li, H.**, Deuser, F., Yin, W., Luo, X., Walther, P., Mai, G., Huang, W. and Werner, M., 2025. [***Cross-view geolocalization and disaster mapping with street-view and VHR satellite imagery: A case study of Hurricane IAN.*** ISPRS Journal of Photogrammetry and Remote Sensing, 220, pp.841-854.](https://doi.org/10.1016/j.isprsjprs.2025.01.003)
 
+Schultz, M., **Li, H.**, Wu, Z., Wiell, D., Auer, M., & Alexander, Z. (2025). [***OSMlanduse a dataset of European Union land use at 10 m resolution derived from OpenStreetMap and Sentinel-2.*** Scientific Data, 12(1), 1-7.](https://www.nature.com/articles/s41597-025-04703-8)
+
 Knoblauch, S., Muthusamy, R.K., Moritz, M., Kang, Y., **Li, H.**, Lautenbach, S., Pereira, R.H., Biljecki, F., Gonzalez, M.C., Barbosa, R. and Hirata, D.V., 2025. [***Crime-associated inequality in geographical access to education: Insights from the municipality of Rio de Janeiro.*** Cities, 160, p.105818.](https://doi.org/10.1016/j.cities.2025.105818)
 
 Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J., Zipf, A., Zhu, XX. (2023). [***Cross-City Matters: A Multimodal Remote Sensing Benchmark Dataset for Cross-City Semantic Segmentation using High-Resolution Domain Adaptation Networks***. Remote Sensing of Environment, October 2023.](https://doi.org/10.1016/j.rse.2023.113856)
 
-**Li, H.**, Wang, J., Zollner, J. M., Mai, G., N., Lao. & Werner, M. (2023). [***Rethink Geographical Generalizability with Unsupervised Self-Attention Model Ensemble: A Case Study of OpenStreetMap Missing Building Detection in Africa***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://sigspatial2023.sigspatial.org/accepted-papers/#full)
-
 
 <h3>Journal Papers (peer reviewed)</h3>
+
+**(J22)** Schultz, M., **Li, H.**, Wu, Z., Wiell, D., Auer, M., & Alexander, Z. (2025). [***OSMlanduse a dataset of European Union land use at 10 m resolution derived from OpenStreetMap and Sentinel-2.*** Scientific Data, 12(1), 1-7.](https://www.nature.com/articles/s41597-025-04703-8)
 
 **(J21)** **Li, H.**, Deuser, F., Yin, W., Luo, X., Walther, P., Mai, G., Huang, W. and Werner, M., 2025. [***Cross-view geolocalization and disaster mapping with street-view and VHR satellite imagery: A case study of Hurricane IAN.*** ISPRS Journal of Photogrammetry and Remote Sensing, 220, pp.841-854.](https://doi.org/10.1016/j.isprsjprs.2025.01.003)
 
