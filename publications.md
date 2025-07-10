@@ -16,6 +16,8 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Journal Papers (peer reviewed)</h3>
 
+**(J23)** Yin, W., Deuser, F., Liu, Z., Wei, J., Luo, X., Werner, M., **Li, H.** and Xue, Y., 2025. [***Triple-objective cross-view geolocalization of disaster-related VGI: the case of Hurricane Ian.*** International Journal of Geographical Information Science, pp.1-23.](https://www.tandfonline.com/doi/abs/10.1080/13658816.2025.2524857)**(Corresponding author)**
+
 **(J22)** Schultz, M., **Li, H.**, Wu, Z., Wiell, D., Auer, M., & Alexander, Z. (2025). [***OSMlanduse a dataset of European Union land use at 10 m resolution derived from OpenStreetMap and Sentinel-2.*** Scientific Data, 12(1), 1-7.](https://www.nature.com/articles/s41597-025-04703-8)
 
 **(J21)** **Li, H.**, Deuser, F., Yin, W., Luo, X., Walther, P., Mai, G., Huang, W. and Werner, M., 2025. [***Cross-view geolocalization and disaster mapping with street-view and VHR satellite imagery: A case study of Hurricane IAN.*** ISPRS Journal of Photogrammetry and Remote Sensing, 220, pp.841-854.](https://doi.org/10.1016/j.isprsjprs.2025.01.003)
