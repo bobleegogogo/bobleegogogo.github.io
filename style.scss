@@ -2,7 +2,7 @@
 ---
 
 $open-sans: 'Open Sans', sans-serif;
-$source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$source-sans: "Noto Sans", "Noto Sans SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 * {
     -webkit-box-sizing: border-box;
@@ -39,14 +39,14 @@ html {
 }
 
 body {
-    color: #515151;
+    color: #000000;
     background-color: #FAFAFA;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
 a {
-    color: #515151;
+    color: #0066CC;
     text-decoration: none;
     transition: all 0.3s;
     &:hover,
@@ -428,13 +428,9 @@ tbody tr:nth-child(odd) th {
 }
 
 .post-list {
-    h4 {
-        display: inline;
-        height: auto;
+    font-size: 0.9rem;
+    strong {
         color: #DE1937;
-    }
-    p {
-        padding-left: 10px;
     }
 }
 
