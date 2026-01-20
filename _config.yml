@@ -12,7 +12,8 @@ googlescholar:      "citations?user=yECGOCwAAAAJ&hl=en"
 
 disqus_shortname:   "Hao"
 
-background:         "/1658027027.jpg"
+avatar:             "/assets/images/picture/hao.jpg"
+background:         "/assets/images/picture/1658027027.jpg"
 #"http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
 paginate:           8
