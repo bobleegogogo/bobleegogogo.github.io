@@ -1,11 +1,10 @@
 ---
-title:        "About Me"
-permalink: /aboutme/
+title: Research
+permalink: /research/
 ---
 
-I am now a Lecturer in the Department of Geography, National University of Singapore (NUS), Singapore. Prior to NUS, I was a senior researcher in Techinical University of Munich (TUM). I received my Ph.D. in the GIScience research group at the Institute of Geography in Heidelberg University, Germany. I got my MS.c degree from University of Stuttgart, Germany, where I was major in Geomatics engineering. Before came to Germany, I got my double BS.c degrees in both Geographical Information Systems and Computer Science at Wuhan University, China. 
-
-Besides research, I enjoy basketball, cylcing, and running. In addition, I'm also a big fan of cooking for my family, just cannot stop trying all differents delicious cuisines.
+<b>As a information geographer, my work centers on exploring the frontier of geospatial artificial intelligence (GeoAI) to monitor and percept human-environment interactions across local and global scales. I integrate multimodal remote sensing (e.g., hyperspectral, multispectral, and VHR imagery), volunteered geographic information (e.g., OpenStreetMap, street view imagery), with advanced GeoAI models, to facilitate a holistic understanding of the geospatial and social processes that shape urban development and environmental change. By bridging the gap between geography and spatial computing, my research aims to build scalable, reliable solutions that enhance <b>1) urban climate resilience</b>, <b>2) rapid disaster response</b>, and <b>3) the responsible usage of GeoAI</b>.</b>
+        
 
 <h2>Special Issues and Workshops</h2>
 
@@ -14,14 +13,6 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * <b> Geosearch 2024 </b>, workshop orgnaized in the 32nd ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2024). DDL: 31 August 2024. [Submission link](https://geosearch-workshop.github.io/geosearch2024/)
 
 
-<h2>Research Interests</h2>
-
-* volunteered geographic information
-* geospatial machine learning
-* multi-sensor data fusion
-* geo-semantics
-* intelligent urban mobility
-* remote sensing
 
 <h2>Invited Talks</h2>
 
@@ -44,15 +35,6 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * <b>Co- Principle Investigator</b>, [Coding4Geo: An open-access and interactive coding platform to facilitate E-Teaching in Geospatial Data Analysis](https://www.nfdi4earth.de/2participate/education-training?view=article&id=314&catid=15), funded by the NFDI4Earth consortium, from Oct, 2022 to Feb, 2023.
 * <b>Principle Staff Researcher</b>, GeoAI4Water - Methods for Prediction and Mapping of Water-Related Infrastructure from Heterogeneous Geodata Sources, funded by Anonymous Industrial Partner, from July 2019 to June 2022.
 * <b>Staff Researcher</b>, [DeepVGI – Deep Learning with Volunteered Geographic Information](https://www.geog.uni-heidelberg.de/gis/deepvgi.html), funded by Klaus Tschira Stiftung.
-
-<h2>Teaching</h2>
-
-* [Principles of Spatial Data Mining and Machine Learning, Lecture & Excercise (3 SWS), WS2022, WS2023](https://www.bgd.ed.tum.de/en/teaching/wise2022/lecture_sdmml/), Technical University of Munich
-* [Selected Topic in Big Geospatial Data, Lecture & Seminar (3 SWS), SS2022, WS2023](https://www.bgd.ed.tum.de/en/teaching/wise2022/seltop/), Technical University of Munich
-* [Research Seminar Big Geospatial Data, Seminar (2 SWS), WS 2022](https://www.bgd.ed.tum.de/en/teaching/wise2022/research_seminar/), Technical University of Munich
-* [Geographical Analysis of Social Media Data (GASMD), Seminar & Lab (2 SWS), WS2021](https://lsf.uni-heidelberg.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=350079&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung), Heidelberg University.
-* Machine Learning for Geographic Applications, Seminar & Lab (2 SWS), SS 2021, Heidelberg University.
-* Machine Learning for Geographic Applications, Seminar & Lab (2 SWS), SS 2020, Heidelberg University.
 
 
 
@@ -93,7 +75,4 @@ Besides research, I enjoy basketball, cylcing, and running. In addition, I'm als
 * IEEE Geoscience and Remote Sensing Society (GRSS) Member
 * ACM SIGSPATIAL Member
 * American Association of Geographers (AAG) Member
-
-
-
-
+* Intenational Society of Digital Earth (ISDE)
