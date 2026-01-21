@@ -9,27 +9,43 @@ permalink: /gallery/
 <div class="gallery-grid">
     <div class="gallery-item">
         <img src="/assets/images/gallery/2025_11.jpg" alt="2025_11">
-        <p>CNISDE Beijing Xiangshan (香山), Dec, 2025</p>
+        <p>CNISDE Xiangshan，Beijing (香山), Dec, 2025</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2024_0417.jpg" alt="2024_0417">
-        <p>AAG Honolulu (檀香山), April, 2024</p>
+        <p>AAG，Honolulu (檀香山), April, 2024</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/assets/images/gallery/2022_12.jpg" alt="2022_12">
+        <p>Neuschwanstein Castle，Munich (新天鹅堡) 2023</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/assets/images/gallery/2022_11.jpg" alt="2022_11">
+        <p>Königstuhl，Heidelberg (王座山)， Nov, 2022</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/assets/images/gallery/2022_07_02.JPG" alt="2022_07">
+        <p>Gljúfrabúi Waterfall，Iceland (冰岛)，July, 2022</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2022_07.JPG" alt="2022_07">
-        <p>HDCRS Summer School Reykjavík (雷克雅未克)，July, 2022</p>
+        <p>HDCRS Summer School，Reykjavík (雷克雅未克)，July, 2022</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2022_0606.jpg" alt="2022_0606">
-        <p>ISPRS Congress Nice (尼斯), June, 2022</p>
+        <p>ISPRS Congress，Nice (尼斯), June, 2022</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2020_10.JPG" alt="2020_10">
-        <p>Hometown Xi'An (西安), Oct, 2020</p>
+        <p>Hometown，Xi'An (西安), Oct, 2020</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/assets/images/gallery/2018_09.JPG" alt="2018_09">
+        <p>Summar Palace，Beijing (颐和园)，2018</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2018_0714.jpg" alt="2018_0714">
-        <p>PhD town Heidelberg (海德堡), July 2018</p>
+        <p>PhD town，Heidelberg (海德堡), July 2018</p>
     </div>
 </div>
 

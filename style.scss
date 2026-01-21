@@ -918,9 +918,13 @@ tbody tr:nth-child(odd) th {
 /* Gallery Styles */
 .gallery-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
     margin-bottom: 40px;
+
+    @media (min-width: 38em) {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .gallery-item {
