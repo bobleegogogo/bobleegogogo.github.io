@@ -391,13 +391,15 @@ tbody tr:nth-child(odd) th {
     padding: 1.4rem 0.8rem;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 80px;
     /*overflow: auto;*/
     @media (min-width: 38rem) {
         margin-top: 0;
         margin-left: 20%;
         padding: 3%;
+        padding-bottom: 100px;
         min-width: 80%;
-        height: 800px;
+        min-height: 100vh;
     }
 }
 
