@@ -116,7 +116,12 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 **Li, H**., Herfort, B., Zia, M., Zipf, A. (2020): ***Geo-Social-Media und Künstliche Intelligenz zur Unterstützung von humanitärer Hilfe in Afrika***, gis.Business, Volume 2020, Issue 4, 2020, Pages 33-34
 
+<hr>
 
-<h3>Dissertation</h3>
+<h3>PhD Dissertation</h3>
 
 **Li, H.** (2022) [***Deep Learning from Heterogeneous Geospatial Data for Automated Mapping of Man-made Infrastructures with OpenStreetMap***, Doctoral Thesis, Heidelberg University, 2022](https://heibox.uni-heidelberg.de/f/48863db65ab54c71a1aa/) 
+
+<h3>Master  Dissertation</h3>
+
+**Li, H.** (2022) [***Composite Kernels for Multisensor Image Cassification***, Master Thesis, University of Stuttgart, 2022](https://www.ifp.uni-stuttgart.de/lehre/masterarbeiten/557-li/) 

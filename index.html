@@ -27,10 +27,21 @@ layout: default
 
     <h2 class="page-title">News</h2>
     <div class="post-list">
-        {% capture news_content %}
-{% include news_list.md %}
+        {% capture news_content %}{% include news_list.md %}{% endcapture %}
+        {% assign news_lines = news_content | newline_to_br | split: '<br />' %}
+        {% assign count = 0 %}
+        {% capture truncated_news %}
+{% for line in news_lines %}
+{% assign trimmed_line = line | strip %}
+{% if trimmed_line != "" %}
+{{ trimmed_line }}
+
+{% assign count = count | plus: 1 %}
+{% endif %}
+{% if count >= 10 %}{% break %}{% endif %}
+{% endfor %}
         {% endcapture %}
-        {{ news_content | markdownify }}
+        {{ truncated_news | markdownify }}
     </div>
 
 </div>
