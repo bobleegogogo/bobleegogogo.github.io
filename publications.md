@@ -124,4 +124,4 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 <h3>Master  Dissertation</h3>
 
-**Li, H.** (2022) [***Composite Kernels for Multisensor Image Cassification***, Master Thesis, University of Stuttgart, 2022](https://www.ifp.uni-stuttgart.de/lehre/masterarbeiten/557-li/) 
+**Li, H.** (2018) [***Composite Kernels for Multisensor Image Cassification***, Master Thesis, University of Stuttgart, 2022](https://www.ifp.uni-stuttgart.de/lehre/masterarbeiten/557-li/) 
