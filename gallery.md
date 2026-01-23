@@ -54,7 +54,7 @@ permalink: /gallery/
 <div class="quote-box">
     <b>
     <p> <a href="https://www.cs.utexas.edu/~dahlin/bookshelf/timetalk.htm" target="_blank">Time Management by Randy Pausch</a> </p>
-    <p> <a href="https://people.eecs.berkeley.edu/~jrs/speaking.html" target="_blank">Giving an Academic Talk</a> </p>
+    <p> <a href="https://people.eecs.berkeley.edu/~jrs/speaking.html" target="_blank">Giving an Academic Talk by Jonathan Shewchuk</a> </p>
     </b>
 </div>
 
