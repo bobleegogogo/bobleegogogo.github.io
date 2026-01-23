@@ -24,7 +24,7 @@ permalink: /gallery/
         <p>Königstuhl，Heidelberg (王座山)， Nov, 2022</p>
     </div>
     <div class="gallery-item">
-        <img src="/assets/images/gallery/2022_07_02.JPG" alt="2022_07">
+        <img src="/assets/images/gallery/2022_07_02.jpg" alt="2022_07">
         <p>Gljúfrabúi Waterfall，Iceland (冰岛)，July, 2022</p>
     </div>
     <div class="gallery-item">
@@ -40,7 +40,7 @@ permalink: /gallery/
         <p>Hometown，Xi'An (西安), Oct, 2020</p>
     </div>
     <div class="gallery-item">
-        <img src="/assets/images/gallery/2018_09.JPG" alt="2018_09">
+        <img src="/assets/images/gallery/2018_09.jpg" alt="2018_09">
         <p>Summar Palace，Beijing (颐和园)，2018</p>
     </div>
     <div class="gallery-item">
@@ -49,7 +49,14 @@ permalink: /gallery/
     </div>
 </div>
 
-<h2>Philosophy</h2>
+<h2>PhD Tips</h2>
+
+<div class="quote-box">
+    <b>
+    <p> <a href="https://www.cs.utexas.edu/~dahlin/bookshelf/timetalk.htm" target="_blank">Time Management by Randy Pausch</a> </p>
+    <p> <a href="https://people.eecs.berkeley.edu/~jrs/speaking.html" target="_blank">Giving an Academic Talk</a> </p>
+    </b>
+</div>
 
 <div class="quote-box">
 "Empty your mind, be formless, shapeless, like water. Put water into a cup. Becomes the cup. Put water into a teapot. Becomes the teapot. Water can flow or creep or drip or crash. Be water, my friend" - <b> Bruce Lee (李小龙) </b>
