@@ -56,11 +56,13 @@ permalink: /research/
 * Annals of the American Association of Geographers, Taylor & Francis
 * International Journal of Geographical Information Science, Taylor & Francis
 * Remote Sensing of Environment, Elsevier
-* Transactions in GIS, John Wiley & Sons, Inc
-* The Professional Geographer, Taylor & Francis
-* IEEE Transaction on Geoscience and Remote Sensing (TGRS), IEEE 
+* IEEE Transaction on Geoscience and Remote Sensing (TGRS), IEEE
+* ACM Transactions on Spatial Algorithms and Systems, ACM
+* GISciecne & Remote Sensing, Taylor & Francis
 * IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (J-STARS), IEEE
 * IEEE Geoscience and Remote Sensing Letters, IEEE
+* Transactions in GIS, John Wiley & Sons, Inc
+* The Professional Geographer, Taylor & Francis
 * International Journal of Applied Earth Observation and Geoinformation, Elsevier
 * International Journal of Digital Earth, Taylor & Francis
 * ISPRS International Journal of Geo-Information, MDPI
