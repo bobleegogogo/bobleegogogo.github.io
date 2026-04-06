@@ -92,7 +92,7 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 **(C10)** Luo, X., Walther, P., Mansour, W., Teuscher, B., Zollner, J. M., **Li, H.,** & Werner, M (2023). [***Exploring GeoAI Methods for Supraglacial Lake Mapping on Greenland Ice Sheet***. In Proceedings of the 31th International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL '23), 2023](https://doi.org/10.1145/3589132.3629971)
 
-**(C9)**  Werner, M., **Li, H.**, Zollner, J. M., Teuscher, B., & Deuser., F. (2023). [Bavaria Buildings - A Novel Dataset for Building Footprint Extraction, Instance Segmentation, and Data Quality Estimation (Data and Resources Paper). Proceedings of the 31st International Conference on Advances in Geographic Information Systems (ACM SIGSPATAIL GIS’23).](https://doi.org/10.1145/3589132.3625658) 
+**(C9)**  Werner, M., **Li, H.**, Zollner, J. M., Teuscher, B., & Deuser., F. (2023). [Bavaria Buildings - A Novel Dataset for Building Footprint Extraction, Instance Segmentation, and Data Quality Estimation (Data and Resources Paper). Proceedings of the 31st International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL GIS'23).](https://doi.org/10.1145/3589132.3625658)
 
 **(C8)** Teuscher, B., Geißendörfer, O., Luo, X., **Li, H.**, Anders, K., Holst, C., & Werner, M. (2023). [Efficient In-Memory Point Cloud Query Processing. 18th International 3DGeoInfo Conference 2023.](https://www.bgd.ed.tum.de/pdf/2023_pointcloudqueries_Teuscher.pdf) 
 
@@ -108,7 +108,7 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 **(C2)** Wu, Z., **Li, H.\***, & Zipf, A. (2020): [***From Historical OpenStreetMap data to customized training samples for geospatial machine learning***, In: Proceedings of the Academic Track at the State of the Map 2020 Online Conference, July 4-5 2020.](http://doi.org/10.5281/zenodo.3923040) (\*: Corresponding Author)
 
-**(C1)**  **Li, H.**, Herfort, B., Zipf, A. (2019): [***Estimating OpenStreetMap Missing Built-up Areas using Pre-trained Deep Neural Networks***, In: Proceedings of the 22st AGILE Conference on Geographic Information Science, Limassol, Cyprus.](https://www.geog.uni-heidelberg.de/md/chemgeo/geog/gis/agile_final_version.pdf)
+**(C1)**  **Li, H.**, Herfort, B., Zipf, A. (2019): [***Estimating OpenStreetMap Missing Built-up Areas using Pre-trained Deep Neural Networks***, In: Proceedings of the 22nd AGILE Conference on Geographic Information Science, Limassol, Cyprus.](https://www.geog.uni-heidelberg.de/md/chemgeo/geog/gis/agile_final_version.pdf)
 
 <h3>Others</h3>
 
@@ -124,4 +124,4 @@ In: Minghini, M., Liu, P., Li, H., Grinberger, A.Y., & Juhász, L. (Eds.). Proce
 
 <h3>Master  Dissertation</h3>
 
-**Li, H.** (2018) [***Composite Kernels for Multisensor Image Cassification***, Master Thesis, University of Stuttgart, 2022](https://www.ifp.uni-stuttgart.de/lehre/masterarbeiten/557-li/) 
+**Li, H.** (2018) [***Composite Kernels for Multisensor Image Classification***, Master Thesis, University of Stuttgart, 2022](https://www.ifp.uni-stuttgart.de/lehre/masterarbeiten/557-li/) 

@@ -8,6 +8,14 @@ permalink: /gallery/
 
 <div class="gallery-grid">
     <div class="gallery-item">
+        <img src="/assets/images/gallery/The Ridge_2026_April.jpg" alt="The_Ridge_2026_April">
+        <p>The NUS Ridge，Singapore (新加坡), April, 2026</p>
+    </div>
+    <div class="gallery-item">
+        <img src="/assets/images/gallery/AAG_SF_2026_March.jpg" alt="AAG_SF_2026_March">
+        <p>AAG，San Francisco (旧金山), March, 2026</p>
+    </div>
+    <div class="gallery-item">
         <img src="/assets/images/gallery/2025_11.jpg" alt="2025_11">
         <p>CNISDE Xiangshan，Beijing (香山), Dec, 2025</p>
     </div>
@@ -41,7 +49,7 @@ permalink: /gallery/
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2018_09.JPG" alt="2018_09">
-        <p>Summar Palace，Beijing (颐和园)，2018</p>
+        <p>Summer Palace，Beijing (颐和园)，2018</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2018_0714.jpg" alt="2018_0714">
@@ -49,7 +57,7 @@ permalink: /gallery/
     </div>
 </div>
 
-<h2>Philosophy</h2>
+<h2>PhD Tips</h2>
 
 <div class="quote-box">
 "Empty your mind, be formless, shapeless, like water. Put water into a cup. Becomes the cup. Put water into a teapot. Becomes the teapot. Water can flow or creep or drip or crash. Be water, my friend" - <b> Bruce Lee (李小龙) </b>

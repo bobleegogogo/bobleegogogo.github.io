@@ -21,4 +21,4 @@
 
 **2023-10** Accepted for a <b>Journal paper </b> in <a href="https://doi.org/10.1016/j.rse.2023.113856"><em> Remote Sensing of Environment</em></a>
 
-**2023-10** Accepted for a <b>Journal paper </b> in <a href="https://doi.org/10.1145/3625819"><em> ACM Computing Survey</em></a>
+**2023-10** Accepted for a <b>Journal paper </b> in <a href="https://doi.org/10.1145/3625819"><em> ACM Computing Surveys</em></a>
