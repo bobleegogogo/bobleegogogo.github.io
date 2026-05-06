@@ -132,6 +132,21 @@ def fetch_scholar_publications():
     return pubs
 
 
+def fetch_scholar_stats():
+    """Return (citations, h_index) from the Scholar profile page stats table."""
+    profile_url = f"{SCHOLAR_BASE}/citations?user={SCHOLAR_USER_ID}&hl=en"
+    print(f"Fetching Scholar stats: {profile_url}")
+    soup = fetch(profile_url, delay=1.5)
+    stats = soup.select("#gsc_rsb_st td.gsc_rsb_std")
+    # Table rows: Citations (all, since2019), h-index (all, since2019), i10-index (all, since2019)
+    if len(stats) >= 3:
+        citations = stats[0].get_text(strip=True)
+        h_index   = stats[2].get_text(strip=True)
+        return citations, h_index
+    print("  [stats] Could not parse Scholar stats table.")
+    return None, None
+
+
 def fetch_paper_url(scholar_link):
     """Visit the Scholar detail page and return the real paper URL (best effort)."""
     if not scholar_link:
@@ -159,7 +174,11 @@ def load_publications_md():
 
 def get_existing_titles(content):
     """Return titles already in publications.md (raw, for fuzzy matching via _normalize)."""
-    return re.findall(r"\*\*\*(.+?)\*\*\*", content)
+    # Match italic titles in markdown links: [*title.* venue](url) or [*title*. venue](url)
+    # The character after the closing * can be space, comma, period, or closing bracket
+    titles = re.findall(r"\[\*(.+?)\*[.\s,\]]", content)
+    titles += re.findall(r"\*\*\*(.+?)\*\*\*", content)  # legacy bold-italic
+    return titles
 
 
 def get_next_journal_number(content):
@@ -195,18 +214,16 @@ def format_entry(pub, number):
     parts = [_normalize_author(p) for p in parts if p.strip()]
     authors = ", ".join(parts)
 
-    # Bold the target author (avoid adding a stray period after the closing **)
-    authors = re.sub(r"\bLi,\s*H\b\.?", "**Li, H.**", authors)
-    # Remove any period that directly follows the closing **
-    authors = re.sub(r"\*\*\.", "**", authors)
+    # Bold the target author using HTML strong tags
+    authors = re.sub(r"\bLi,\s*H\b\.?", "<strong>Li, H.</strong>", authors)
 
     # Strip trailing year from venue string (Scholar appends ", YYYY" at the end)
     venue_clean = re.sub(r",?\s*\d{4}\s*$", "", venue).strip()
     citation = f"{venue_clean}." if venue_clean else ""
     if url:
-        linked = f"[***{title}.*** {citation}]({url})"
+        linked = f"[*{title}.* {citation}]({url})"
     else:
-        linked = f"***{title}.*** {citation}"
+        linked = f"*{title}.* {citation}"
 
     # Compose the full entry line
     # Scholar's author string often already contains the year; if not, append it.
@@ -216,6 +233,142 @@ def format_entry(pub, number):
         entry = f"**(J{number})** {authors}. {linked}"
 
     return entry.strip()
+
+
+def count_publications(content):
+    """Count indexed publications by section in publications.md."""
+    j = len(re.findall(r"\*\*\(J\d+\)\*\*", content))
+    b = len(re.findall(r"\*\*\(B\d+\)\*\*", content))
+    e = len(re.findall(r"\*\*\(E\d+\)\*\*", content))
+    c = len(re.findall(r"\*\*\(C\d+\)\*\*", content))
+    return j, b, e, c
+
+
+def update_summary_line(content, citations=None, h_index=None):
+    """
+    Insert or replace a statistics summary line just before the Journal Papers section.
+    The block is wrapped in <!-- pub-stats-start/end --> sentinels so it can be
+    found and updated on subsequent runs.
+    """
+    from datetime import date
+    today = date.today().strftime("%Y-%m-%d")
+
+    j, b, e, c = count_publications(content)
+    total = j + b + e + c
+
+    scholar_link = (
+        f'<a href="https://scholar.google.com/citations?user={SCHOLAR_USER_ID}">Google Scholar</a>'
+    )
+    summary = (
+        f'<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">'
+        f'\U0001f4c4 <strong>{total}</strong> publications &nbsp;|&nbsp; '
+        f'\U0001f4d6 <strong>{citations}</strong> citations &nbsp;|&nbsp; '
+        f'\U0001f4ca h-index: <strong>{h_index}</strong> &nbsp;\u2014&nbsp; '
+        f'{scholar_link} <em>(updated {today})</em></p>'
+    ) if citations else (
+        f'<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">'
+        f'\U0001f4c4 <strong>{total}</strong> publications &nbsp;\u2014&nbsp; '
+        f'{scholar_link} <em>(updated {today})</em></p>'
+    )
+    block = f"<!-- pub-stats-start -->\n{summary}\n<!-- pub-stats-end -->"
+
+    # Replace existing block if present
+    existing = re.search(
+        r"<!-- pub-stats-start -->.*?<!-- pub-stats-end -->",
+        content, re.DOTALL,
+    )
+    if existing:
+        return content[:existing.start()] + block + content[existing.end():]
+
+    # Insert at top of page, right after the YAML front matter (--- ... ---)
+    fm_end = content.find("---", 3)  # find closing ---
+    if fm_end != -1:
+        insert_pos = content.find("\n", fm_end) + 1
+        return content[:insert_pos] + "\n" + block + "\n" + content[insert_pos:]
+
+    # Fallback: insert before Journal Papers header
+    jp_marker = "<h3>Journal Papers (peer reviewed)</h3>"
+    jp_idx = content.find(jp_marker)
+    if jp_idx == -1:
+        print("  [stats] Could not find Journal Papers section – skipping summary.")
+        return content
+    return content[:jp_idx] + block + "\n\n" + content[jp_idx:]
+
+
+def update_featured_papers(content, n=5):
+    """
+    Replace the Feature Papers section with the *n* most recent first-author
+    journal entries from the Journal Papers section.
+
+    First-author detection: the entry (after stripping the '(Jnn)' tag) starts
+    with '<strong>Li, H.</strong>'.
+    """
+    # --- 1. Extract all journal entries ---
+    jp_marker = "<h3>Journal Papers (peer reviewed)</h3>"
+    jp_idx = content.find(jp_marker)
+    if jp_idx == -1:
+        print("  [featured] Could not find Journal Papers section – skipping.")
+        return content
+
+    # Find the next <h3> after journal papers to know where that section ends
+    next_h3 = content.find("<h3>", jp_idx + len(jp_marker))
+    if next_h3 == -1:
+        next_h3 = len(content)
+
+    jp_section = content[jp_idx + len(jp_marker):next_h3]
+
+    # Each entry starts with '**(Jnn)**'; collect them
+    entry_pattern = re.compile(
+        r"(\*\*\(J(\d+)\)\*\*\s+.+?)(?=\*\*\(J\d+\)\*\*|\Z)",
+        re.DOTALL,
+    )
+    all_entries = []
+    for m in entry_pattern.finditer(jp_section):
+        num = int(m.group(2))
+        raw = m.group(1).strip()
+        all_entries.append((num, raw))
+
+    # --- 2. Filter for first-author entries ---
+    # After removing '**(Jnn)** ' prefix the line must start with '<strong>Li, H.</strong>'
+    first_author_entries = []
+    for num, raw in all_entries:
+        # Strip the leading '(Jnn)' tag
+        body = re.sub(r"^\*\*\(J\d+\)\*\*\s*", "", raw).strip()
+        if body.startswith("<strong>Li, H.</strong>"):
+            first_author_entries.append((num, body))
+
+    if not first_author_entries:
+        print("  [featured] No first-author entries found – skipping.")
+        return content
+
+    # --- 3. Pick the n most recent (highest J number) ---
+    first_author_entries.sort(key=lambda x: x[0], reverse=True)
+    top = first_author_entries[:n]
+
+    # --- 4. Rebuild the Feature Papers section ---
+    new_section_lines = ["<h3>Feature Papers</h3>", ""]
+    for _, body in top:
+        new_section_lines.append(body)
+        new_section_lines.append("")
+    new_section = "\n".join(new_section_lines)
+
+    # Replace everything between <h3>Feature Papers</h3> and <h3>Journal Papers
+    fp_marker = "<h3>Feature Papers</h3>"
+    fp_idx = content.find(fp_marker)
+    if fp_idx == -1:
+        print("  [featured] Could not find Feature Papers section – skipping.")
+        return content
+
+    # Find the start of <h3>Journal Papers right after Feature Papers
+    jp_after_fp = content.find(jp_marker, fp_idx)
+    if jp_after_fp == -1:
+        print("  [featured] Could not find Journal Papers after Feature Papers – skipping.")
+        return content
+
+    # Keep a blank line before the Journal Papers header
+    content = content[:fp_idx] + new_section + "\n\n" + content[jp_after_fp:]
+    print(f"  [featured] Updated Feature Papers with {len(top)} first-author entries.")
+    return content
 
 
 def insert_entry(content, entry):
@@ -273,8 +426,10 @@ def already_present(title, existing):
 def main():
     dry_run = "--dry-run" in sys.argv
 
-    # 1. Fetch Scholar data
+    # 1. Fetch Scholar data and stats
     pubs = fetch_scholar_publications()
+    citations, h_index = fetch_scholar_stats()
+    print(f"  Scholar stats — citations: {citations}, h-index: {h_index}")
 
     # 2. Load current publications.md
     content = load_publications_md()
@@ -296,6 +451,12 @@ def main():
 
     if not new_journals:
         print("\nNo new journal publications found. publications.md is up to date.")
+        # Still refresh featured papers and stats summary in case they're stale
+        print("\nRefreshing Feature Papers section and publication stats…")
+        content = update_featured_papers(content)
+        content = update_summary_line(content, citations, h_index)
+        with open(PUBLICATIONS_FILE, "w", encoding="utf-8") as f:
+            f.write(content)
         return
 
     print(f"\n{len(new_journals)} new journal paper(s) to add:")
@@ -325,6 +486,10 @@ def main():
         for num, entry in entries_added:
             print(f"\n(J{num}):\n{textwrap.fill(entry, width=100)}")
         return
+
+    # 6. Update featured papers section and publication stats summary
+    content = update_featured_papers(content)
+    content = update_summary_line(content, citations, h_index)
 
     with open(PUBLICATIONS_FILE, "w", encoding="utf-8") as f:
         f.write(content)
