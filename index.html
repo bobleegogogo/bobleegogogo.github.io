@@ -38,7 +38,7 @@ layout: default
 
 {% assign count = count | plus: 1 %}
 {% endif %}
-{% if count >= 10 %}{% break %}{% endif %}
+{% if count >= 5 %}{% break %}{% endif %}
 {% endfor %}
         {% endcapture %}
         {{ truncated_news | markdownify }}

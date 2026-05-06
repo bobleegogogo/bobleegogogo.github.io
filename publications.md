@@ -16,6 +16,28 @@ Hong, D., Zhang, B., **Li, H.**, Y Li, J Yao, C Li, Werner, M., J Chanussote, J.
 
 <h3>Journal Papers (peer reviewed)</h3>
 
+**(J34)** **Li, H.**, Deuser, F., Yin, W., Knoblauch, S., Zhao, W., Biljecki, F., Xue, Y., Huang, W., 2026. [***Towards generative location awareness for disaster response: A probabilistic cross-view geolocalization approach.*** ISPRS Journal of Photogrammetry and Remote Sensing 237, 130-145.](https://www.sciencedirect.com/science/article/pii/S0924271626002042)
+
+**(J33)** Chen, Y., Fan, Z., **Li, H.**, Zhao, W., Yang, X., Tang, G., Biljecki, F., 2026. [***Vision2Slope: estimating urban road slopes with street view imagery.*** International Journal of Geographical Information Science, 1-45.](https://www.tandfonline.com/doi/abs/10.1080/13658816.2026.2656269)
+
+**(J32)** Knoblauch, S., **Li, H.**, Biljecki, F., Li, W., Zipf, A., 2026. [***Urban AI for a sustainable built environment: Progress and future directions.*** Environment and Planning B: Urban Analytics and City Science, 23998083261418565.](https://journals.sagepub.com/doi/abs/10.1177/23998083261418565)
+
+**(J31)** **Li, H.**, Knoblauch, S., Yan, Y., Zipf, A., 2026. [***Synergizing volunteered geographical information and Earth observation for enhanced disaster management.*** Data-Driven Earth Observation for Disaster Management, 729-741.](https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780443338038000299)
+
+**(J30)** Liu, P., Chen, Y., Liang, X., **Li, H.**, Biljecki, F., Stouffs, R., 2025. [***A graph neural network for small-area estimation: integrating spatial regularisation, heterogeneous spatial units, and Bayesian inference.*** International Journal of Geographical Information Science, 1-39.](https://www.tandfonline.com/doi/abs/10.1080/13658816.2025.2597971)
+
+**(J29)** Yuan, Z., Kerckhoffs, J., Lin, P.D., Suel, E., **Li, H.**, Yi, L., Jimenez, M.P., James, P., ..., 2025. [***Advancing Air Pollution Exposure Models with Open-Vocabulary Object Detection and Semantic Segmentation of Street-View Images.*** Environmental Science & Technology 59 (39), 21237-21247.](https://pubs.acs.org/doi/abs/10.1021/acs.est.5c09687)
+
+**(J28)** Luo, P., Song, C., **Li, H.**, Zhu, D., Hu, S., Duarte, F., 2025. [***Modeling shared micromobility as a label propagation process for detecting the overlapping communities.*** Computers, Environment and Urban Systems 122.](https://www.sciencedirect.com/science/article/pii/S0198971525000894)
+
+**(J27)** Huan, W., Li, S., Liu, X., Wu, H., Diao, M., **Li, H.**, A Yair Grinberger, Liu, H., Liu, C., ..., 2025. [***Correlation and causality between traffic congestion and the built environment: a case study in New York city.*** International Journal of Digital Earth 18 (2), 2548377.](https://www.tandfonline.com/doi/pdf/10.1080/17538947.2025.2548377)
+
+**(J26)** Ahmad, M., Distefano, S., Khan, A.M., Mazzara, M., Li, C., **Li, H.**, Aryal, J., Ding, Y., ..., 2025. [***A comprehensive survey for hyperspectral image classification: The evolution from conventional to transformers and mamba models.*** Neurocomputing 644, 130428.](https://www.sciencedirect.com/science/article/pii/S0925231225011002)
+
+**(J25)** Su, P., Yan, Y., **Li, H.**, Wu, H., Liu, C., Huang, W., 2025. [***Images and deep learning in human and urban infrastructure interactions pertinent to sustainable urban studies: Review and perspective.*** International Journal of Applied Earth Observation and Geoinformation 136 ….](https://www.sciencedirect.com/science/article/pii/S1569843224007106)
+
+**(J24)** Liu, Y., Wang, Y., Zhang, Y., Mei, S., Zou, J., Li, Z., Lu, F., He, W., Zhang, H., Zhao, H., ..., 2024. [***Cross-city semantic segmentation (C2Seg) in multimodal remote sensing: outcome of the 2023 IEEE WHISPERS C2Seg challenge.*** IEEE Journal of Selected Topics in Applied Earth Observations and Remote ….](https://ieeexplore.ieee.org/abstract/document/10517985/)
+
 **(J23)** Yin, W., Deuser, F., Liu, Z., Wei, J., Luo, X., Werner, M., **Li, H.** and Xue, Y., 2025. [***Triple-objective cross-view geolocalization of disaster-related VGI: the case of Hurricane Ian.*** International Journal of Geographical Information Science, pp.1-23.](https://www.tandfonline.com/doi/abs/10.1080/13658816.2025.2524857)**(Corresponding author)**
 
 **(J22)** Schultz, M., **Li, H.**, Wu, Z., Wiell, D., Auer, M., & Alexander, Z. (2025). [***OSMlanduse a dataset of European Union land use at 10 m resolution derived from OpenStreetMap and Sentinel-2.*** Scientific Data, 12(1), 1-7.](https://www.nature.com/articles/s41597-025-04703-8)
