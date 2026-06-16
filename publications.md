@@ -4,7 +4,7 @@ permalink: /publications/
 ---
 
 <!-- pub-stats-start -->
-<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">📄 <strong>55</strong> publications &nbsp;|&nbsp; 📖 <strong>2703</strong> citations &nbsp;|&nbsp; 📊 h-index: <strong>18</strong> &nbsp;—&nbsp; <a href="https://scholar.google.com/citations?user=yECGOCwAAAAJ">Google Scholar</a> <em>(updated 2026-05-06)</em></p>
+<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">📄 <strong>56</strong> publications &nbsp;|&nbsp; 📖 <strong>2875</strong> citations &nbsp;|&nbsp; 📊 h-index: <strong>19</strong> &nbsp;—&nbsp; <a href="https://scholar.google.com/citations?user=yECGOCwAAAAJ">Google Scholar</a> <em>(updated 2026-06-16)</em></p>
 <!-- pub-stats-end -->
 
 <h3>Feature Papers</h3>
@@ -21,6 +21,8 @@ permalink: /publications/
 
 
 <h3>Journal Papers (peer reviewed)</h3>
+
+**(J34)** Wang, H., Xu, Y., <strong>Li, H.</strong>, Wu, L., Xie, Z., 2026. *Spatial Context-Aware Weakly-Supervised Transfer Learning: A Framework for Measuring the Similarity of Building Shapes.* Transactions in GIS 30 (4).
 
 **(J33)** <strong>Li, H.</strong>, Deuser, F., Yin, W., Knoblauch, S., Zhao, W., Biljecki, F., Xue, Y., Huang, W., 2026. [*Towards generative location awareness for disaster response: A probabilistic cross-view geolocalization approach.* ISPRS Journal of Photogrammetry and Remote Sensing 237, 130-145.](https://www.sciencedirect.com/science/article/pii/S0924271626002042)
 
