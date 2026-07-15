@@ -75,5 +75,13 @@ permalink: /gallery/
 </div>
 
 <div class="quote-box">
+<p>"You must seek the truths of life from their very roots; do not try to distinguish between turbid and clear waters in the branches." </p>
+
+<p> In Chinese “须从根本求生死，莫向支流辩浊清”</p> - <b> Wang Yangming (王阳明) </b>
+</div>
+
+<div class="quote-box">
 "Empty your mind, be formless, shapeless, like water. Put water into a cup. Becomes the cup. Put water into a teapot. Becomes the teapot. Water can flow or creep or drip or crash. Be water, my friend" - <b> Bruce Lee (李小龙) </b>
 </div>
+
+
