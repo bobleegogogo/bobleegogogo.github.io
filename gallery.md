@@ -9,7 +9,7 @@ permalink: /gallery/
 <div class="gallery-grid">
     <div class="gallery-item">
         <img src="/assets/images/gallery/2026-07-Falls.JPG" alt="2026-07">
-        <p>ISPRS Congress, Niagara Falls (多伦多) , July, 2026</p>
+        <p>ISPRS Congress, Niagara Fallsm, Toronto (多伦多) , July, 2026</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/The Ridge_2026_April.jpg" alt="The_Ridge_2026_April">
