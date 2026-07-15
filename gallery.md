@@ -45,7 +45,7 @@ permalink: /gallery/
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2022_06.JPG" alt="2022_06">
-        <p>June, 2022</p>
+        <p>Kerið Lake, Iceland (冰岛) June, 2022</p>
     </div>
     <div class="gallery-item">
         <img src="/assets/images/gallery/2022_0606.jpg" alt="2022_0606">
