@@ -4,7 +4,7 @@ permalink: /publications/
 ---
 
 <!-- pub-stats-start -->
-<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">📄 <strong>57</strong> publications &nbsp;|&nbsp; 📖 <strong>2974</strong> citations &nbsp;|&nbsp; 📊 h-index: <strong>19</strong> &nbsp;—&nbsp; <a href="https://scholar.google.com/citations?user=yECGOCwAAAAJ">Google Scholar</a> <em>(updated 2026-07-15)</em></p>
+<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">📄 <strong>58</strong> publications &nbsp;|&nbsp; 📖 <strong>3077</strong> citations &nbsp;|&nbsp; 📊 h-index: <strong>19</strong> &nbsp;—&nbsp; <a href="https://scholar.google.com/citations?user=yECGOCwAAAAJ">Google Scholar</a> <em>(updated 2026-08-04)</em></p>
 <!-- pub-stats-end -->
 
 <h3>Feature Papers</h3>
@@ -20,16 +20,11 @@ permalink: /publications/
 <strong>Li, H.</strong>; Herfort, B.; Lautenbach, S.; Chen, J.; Zipf, A.(2022) [*Improving OpenStreetMap missing building detection using few-shot transfer learning in sub-Saharan Africa*. Transactions in GIS. 2022, 04 May.](https://doi.org/10.1111/tgis.12941) [**(Cover Image Article)**](https://onlinelibrary.wiley.com/doi/10.1111/tgis.13021)
 
 
-<h3>Latest arXiv Preprints</h3>
-
-<strong>Li, H.</strong>, Chu, C., Biljecki, F., Shahabi, C., Li, W., 2026. [*Automated Quality Assessment of Geospatial Vector Data: A GeoAI Approach using Spatial Representation Learning.* arXiv:2606.28390.](https://arxiv.org/abs/2606.28390)
-
-Knoblauch, S., <strong>Li, H.</strong>, Mai, G., Klemmer, K., Gao, S., Li, W., 2026. [*Spatial Representation Learning Beyond Pixels: Unifying Raster Data and Vector Semantics for Human-Centric Geospatial Foundation Models.* arXiv:2606.02374.](https://arxiv.org/abs/2606.02374)
-
-<strong>Li, H.</strong>, Knoblauch, S., 2026. [*Unbox Responsible GeoAI: Navigating Climate Extreme and Disaster Mapping.* arXiv:2605.00315.](https://arxiv.org/abs/2605.00315)
-
-
 <h3>Journal Papers (peer reviewed)</h3>
+
+**(J36)** Yin, W., Liu, Z., Mou, N., Li, W., Hong, D., <strong>Li, H.</strong>, 2026. [*DisasterTD: Disaster Toponym Disambiguation Using Multimodal LLMs and Cross-View Geolocalization.* IEEE Transactions on Geoscience and Remote Sensing.](https://ieeexplore.ieee.org/abstract/document/11625954/)
+
+**(J35)** Yin, W., Deuser, F., Jiang, J., Liu, Z., Luo, X., Zheng, Z., Werner, M., <strong>Li, H.</strong>, Xue, Y., 2026. [*SAGINGeo: A Space-Aerial-Ground Integrated Framework for VGI Geolocalization in Multi-Disaster Scenarios.* IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.](https://ieeexplore.ieee.org/abstract/document/11603959/)
 
 **(J34)** Wang, H., Xu, Y., <strong>Li, H.</strong>, Wu, L., Xie, Z., 2026. [*Spatial Context-Aware Weakly-Supervised Transfer Learning: A Framework for Measuring the Similarity of Building Shapes.* Transactions in GIS 30 (4).](https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.70314)
 

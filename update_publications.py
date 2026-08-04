@@ -23,7 +23,7 @@ SCHOLAR_USER_ID = "yECGOCwAAAAJ"
 SCHOLAR_BASE    = "https://scholar.google.com"
 SCHOLAR_PROFILE = (
     f"{SCHOLAR_BASE}/citations"
-    f"?user={SCHOLAR_USER_ID}&hl=en&sortby=pubdate&cstart=0&pagesize=100"
+    f"?user={SCHOLAR_USER_ID}&view_op=list_works&sortby=pubdate"
 )
 
 PUBLICATIONS_FILE = "publications.md"
