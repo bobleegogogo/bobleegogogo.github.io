@@ -288,13 +288,77 @@ def _openalex_homepage(issn_list):
     return ""
 
 
+def _resolve_image_url(candidate, base_url):
+    """Resolve a relative image URL against the homepage URL."""
+    candidate = (candidate or "").strip()
+    if not candidate:
+        return ""
+    if candidate.startswith("//"):
+        return "https:" + candidate
+    if candidate.startswith("/"):
+        return urllib.parse.urljoin(base_url, candidate)
+    return candidate
+
+
+def _extract_homepage_image_candidates(homepage_url, html):
+    """Extract likely image URLs from a journal homepage HTML page."""
+    soup = BeautifulSoup(html, "html.parser")
+    candidates = []
+    seen = set()
+
+    for tag in soup.find_all("meta"):
+        content = tag.get("content") or tag.get("value") or ""
+        if not content:
+            continue
+        tag_context = f"{tag.get('property','')} {tag.get('name','')}".lower()
+        if "image" not in tag_context:
+            continue
+        resolved = _resolve_image_url(content, homepage_url)
+        if resolved.startswith("http") and resolved not in seen:
+            candidates.append(resolved)
+            seen.add(resolved)
+
+    for img in soup.find_all("img"):
+        for attr in ("src", "data-src", "data-original", "data-lazy-src"):
+            src = img.get(attr) or ""
+            if not src:
+                continue
+            resolved = _resolve_image_url(src, homepage_url)
+            if resolved.startswith("http") and resolved not in seen:
+                candidates.append(resolved)
+                seen.add(resolved)
+
+        srcset = img.get("srcset") or ""
+        if srcset:
+            for part in srcset.split(","):
+                raw = part.strip().split()[0] if part.strip() else ""
+                resolved = _resolve_image_url(raw, homepage_url)
+                if resolved.startswith("http") and resolved not in seen:
+                    candidates.append(resolved)
+                    seen.add(resolved)
+
+    return candidates
+
+
 def _cover_from_homepage(homepage_url):
     """
-    Derive a working cover image URL from a journal's homepage URL
-    using publisher-specific patterns.
+    Derive a working cover image URL from a journal's homepage URL.
+    First try the homepage HTML for OG/Twitter or img references; then fall back
+    to publisher-specific patterns.
     """
     if not homepage_url:
         return ""
+
+    try:
+        r = requests.get(homepage_url, timeout=12, headers=HEADERS, allow_redirects=True)
+        if r.status_code in (200, 301, 302):
+            final_url = r.url
+            for candidate in _extract_homepage_image_candidates(final_url, r.text):
+                verified = _probe(candidate)
+                if verified:
+                    return verified
+    except Exception:
+        pass
 
     # Taylor & Francis: tandfonline.com/journals/{code}
     m = re.search(r"tandfonline\.com/journals/(\w+)", homepage_url, re.I)
@@ -313,10 +377,6 @@ def _cover_from_homepage(homepage_url):
     if m:
         url = f"https://www.mdpi.com/img/journals/{m.group(1)}-logo.png"
         return _probe(url) or ""
-
-    # Elsevier: journals.elsevier.com or sciencedirect.com → ISSN from OpenAlex
-    # Cover CDN: secure-ecsd.elsevier.com/covers/80/Tango2/large/{ISSN-no-dash}.jpg
-    # (issn_list is not available here; handled via CrossRef in fetch_journal_cover)
 
     return ""
 
@@ -383,6 +443,14 @@ _COVER_DICT = {
         "https://www.tandfonline.com/action/showCoverImage?journalCode=tgis20",
     "international journal of digital earth":
         "https://www.tandfonline.com/action/showCoverImage?journalCode=tjde20",
+    # Transactions in GIS – Wiley journal cover from journal homepage
+    "transactions in gis":
+        "https://onlinelibrary.wiley.com/pb-assets/journals/2017/TGIScover-1664319274601.jpg",
+    # IEEE journals – use journal cover imagery from their public publisher pages
+    "ieee transactions on geoscience and remote sensing":
+        "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36",
+    "ieee journal of selected topics in applied earth observations and remote sensing":
+        "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443",
     # Wikimedia Commons (confirmed HTTP 200)
     "remote sensing of environment":
         "https://upload.wikimedia.org/wikipedia/en/3/3d/Remote_Sensing_of_Environment_cover.gif",
