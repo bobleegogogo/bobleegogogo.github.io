@@ -27,7 +27,7 @@ SCHOLAR_USER_ID = "yECGOCwAAAAJ"
 SCHOLAR_BASE    = "https://scholar.google.com"
 SCHOLAR_PROFILE = (
     f"{SCHOLAR_BASE}/citations"
-    f"?user={SCHOLAR_USER_ID}&hl=en&sortby=pubdate&cstart=0&pagesize=100"
+    f"?user={SCHOLAR_USER_ID}&&view_op=list_works&sortby=pubdate"
 )
 
 PUBLICATIONS_FILE = "publications.md"
@@ -97,27 +97,27 @@ def titles_match(t1, t2):
 
 # ── publications.md parser ────────────────────────────────────────────────────
 
-# Matches lines like:  **(J34)** authors, 2026. [***Title.*** Venue.](URL)
+# Matches lines like: **(J34)** authors, 2026. [*Title.* Venue.](URL)
+# and older bold-italic forms such as [***Title.*** Venue.](URL)
 ENTRY_RE = re.compile(
     r"\*\*\(J(\d+)\)\*\*"         # (1) journal number
     r".+?"                         # authors + year (non-greedy)
-    r"\[{0,1}\*\*\*(.+?)\.\*\*\*" # (2) title  (inside bold-italic)
-    r"\s*(.+?)"                    # (3) venue info
-    r"\]\((.+?)\)",                # (4) URL
+    r"\[(?:\*\*\*|\*)(?P<title>.+?)(?:\*\*\*|\*)\s*(?P<venue>.+?)\]\((?P<url>.+?)\)",
     re.DOTALL
 )
+
 
 def parse_journal_entries(content):
     """Return list of dicts with keys: number, title, venue_raw, url, year."""
     entries = []
     for m in ENTRY_RE.finditer(content):
         number    = int(m.group(1))
-        title     = m.group(2).strip()
-        venue_raw = m.group(3).strip().rstrip(".")
-        url       = m.group(4).strip()
+        title     = m.group("title").strip().rstrip(".")
+        venue_raw = m.group("venue").strip().rstrip(".")
+        url       = m.group("url").strip()
 
         # Extract year from the surrounding text (look before the link)
-        snippet = content[max(0, m.start()):m.start(2)]
+        snippet = content[max(0, m.start()):m.start("title")]
         yr = re.findall(r"\b(20\d\d)\b", snippet)
         year = yr[-1] if yr else ""
 
