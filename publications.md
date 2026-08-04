@@ -24,7 +24,7 @@ permalink: /publications/
 
 **(J36)** Yin, W., Liu, Z., Mou, N., Li, W., Hong, D., <strong>Li, H.*</strong>, 2026. [*DisasterTD: Disaster Toponym Disambiguation Using Multimodal LLMs and Cross-View Geolocalization.* IEEE Transactions on Geoscience and Remote Sensing.](https://ieeexplore.ieee.org/abstract/document/11625954/) (Corresponding Author)
 
-**(J35)** Yin, W., Deuser, F., Jiang, J., Liu, Z., Luo, X., Zheng, Z., Werner, M., <strong>Li, H.*</strong>, Xue, Y.*, 2026. [*SAGINGeo: A Space-Aerial-Ground Integrated Framework for VGI Geolocalization in Multi-Disaster Scenarios.* IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.](https://ieeexplore.ieee.org/abstract/document/11603959/) (Corresponding Author)
+**(J35)** Yin, W., Deuser, F., Jiang, J., Liu, Z., Luo, X., Zheng, Z., Werner, M., <strong>Li, H.*</strong>, Xue, Y. *, 2026. [*SAGINGeo: A Space-Aerial-Ground Integrated Framework for VGI Geolocalization in Multi-Disaster Scenarios.* IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing.](https://ieeexplore.ieee.org/abstract/document/11603959/) (Corresponding Author)
 
 **(J34)** Wang, H., Xu, Y., <strong>Li, H.</strong>, Wu, L., Xie, Z., 2026. [*Spatial Context-Aware Weakly-Supervised Transfer Learning: A Framework for Measuring the Similarity of Building Shapes.* Transactions in GIS 30 (4).](https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.70314)
 
@@ -33,7 +33,7 @@ permalink: /publications/
 
 **(J32)** Chen, Y., Fan, Z., <strong>Li, H.</strong>, Zhao, W., Yang, X., Tang, G., Biljecki, F., 2026. [*Vision2Slope: estimating urban road slopes with street view imagery.* International Journal of Geographical Information Science, 1-45.](https://www.tandfonline.com/doi/abs/10.1080/13658816.2026.2656269)
 
-**(J31)** Knoblauch, S.*, <strong>Li, H.*</strong>, Biljecki, F., Li, W., Zipf, A., 2026. [*Urban AI for a sustainable built environment: Progress and future directions.* Environment and Planning B: Urban Analytics and City Science, 23998083261418565.](https://journals.sagepub.com/doi/abs/10.1177/23998083261418565) (Corresponding Author)
+**(J31)** Knoblauch, S.*, <strong>Li, H.*</strong>, Biljecki, F., Li, W., Zipf, A., 2026. [*Urban AI for a sustainable built environment: Progress and future directions.* Environment and Planning B: Urban Analytics and City Science, 23998083261418565.](https://journals.sagepub.com/doi/abs/10.1177/23998083261418565)(Corresponding Author)
 
 **(J30)** Liu, P., Chen, Y., Liang, X., <strong>Li, H.</strong>, Biljecki, F., Stouffs, R., 2025. [*A graph neural network for small-area estimation: integrating spatial regularisation, heterogeneous spatial units, and Bayesian inference.* International Journal of Geographical Information Science, 1-39.](https://www.tandfonline.com/doi/abs/10.1080/13658816.2025.2597971)
 
