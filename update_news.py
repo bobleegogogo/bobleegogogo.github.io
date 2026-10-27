@@ -13,6 +13,8 @@ Options:
     --count N   Number of latest papers to feature as news (default: 5).
 """
 
+import hashlib
+import os
 import re
 import sys
 import time
@@ -32,6 +34,7 @@ SCHOLAR_PROFILE = (
 
 PUBLICATIONS_FILE = "publications.md"
 NEWS_FILE         = "_includes/news_list.md"
+COVER_CACHE_DIR  = os.path.join("assets", "images", "journal_covers")
 DEFAULT_COUNT     = 5
 
 HEADERS = {
@@ -227,7 +230,11 @@ def fetch_publication_date(detail_link):
 # ── Journal cover fetcher ─────────────────────────────────────────────────────
 
 def _probe(url, timeout=6):
-    """Return url if a HEAD request returns 200/301/302, else empty string."""
+    """Return url if a local asset or HTTP endpoint responds successfully."""
+    if not url:
+        return ""
+    if url.startswith("/"):
+        return url if os.path.exists(os.path.join(os.getcwd(), url.lstrip("/"))) else ""
     try:
         r = requests.head(url, timeout=timeout, allow_redirects=True,
                           headers={"User-Agent": HEADERS["User-Agent"]})
@@ -454,10 +461,61 @@ _COVER_DICT = {
     # Wikimedia Commons (confirmed HTTP 200)
     "remote sensing of environment":
         "https://upload.wikimedia.org/wikipedia/en/3/3d/Remote_Sensing_of_Environment_cover.gif",
-    # Local asset (SAGE blocks all automated access)
+    # Local asset overrides for publisher covers that are unavailable or need a custom image.
+    "isprs international journal of geo-information":
+        "/assets/images/journal_covers/ijgi_cover.png",
     "environment and planning b: urban analytics and city science":
         "/assets/images/picture/epb_cover.png",
 }
+
+
+def _cover_cache_path(url):
+    """Return the local cache path for a cover image URL."""
+    normalized = url.strip()
+    if not normalized:
+        return ""
+    digest = hashlib.sha1(normalized.encode("utf-8")).hexdigest()[:16]
+    parsed = urllib.parse.urlsplit(normalized)
+    ext = os.path.splitext(parsed.path)[1].lower()
+    valid_exts = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"}
+    if ext not in valid_exts:
+        ext = ".jpg"
+    os.makedirs(COVER_CACHE_DIR, exist_ok=True)
+    return os.path.join(COVER_CACHE_DIR, f"{digest}{ext}")
+
+
+def _local_cover_url(url):
+    """Cache a remote cover URL locally and return the site-relative path."""
+    if not url or not url.startswith("http"):
+        return url
+
+    cache_path = _cover_cache_path(url)
+    if os.path.exists(cache_path):
+        return "/" + cache_path.replace(os.sep, "/")
+
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        if response.status_code != 200:
+            return url
+        content_type = response.headers.get("Content-Type", "image/jpeg").split(";", 1)[0].lower()
+        ext_map = {
+            "image/jpeg": ".jpg",
+            "image/jpg": ".jpg",
+            "image/png": ".png",
+            "image/gif": ".gif",
+            "image/webp": ".webp",
+            "image/svg+xml": ".svg",
+        }
+        ext = ext_map.get(content_type, ".jpg")
+        cache_path = os.path.join(COVER_CACHE_DIR, f"{hashlib.sha1(url.strip().encode('utf-8')).hexdigest()[:16]}{ext}")
+        if os.path.exists(cache_path):
+            return "/" + cache_path.replace(os.sep, "/")
+
+        with open(cache_path, "wb") as fh:
+            fh.write(response.content)
+        return "/" + cache_path.replace(os.sep, "/")
+    except requests.RequestException:
+        return url
 
 
 def fetch_journal_cover(paper_url, journal_name=""):
@@ -497,16 +555,18 @@ def fetch_journal_cover(paper_url, journal_name=""):
                 if key in journal_norm or journal_norm in key:
                     verified = _probe(candidate)
                     if verified:
-                        print(f"    Cover (dict '{key[:40]}'): {verified[:70]}")
-                        return verified
+                        local = _local_cover_url(verified)
+                        print(f"    Cover (dict '{key[:40]}'): {local[:70]}")
+                        return local
 
         # Strategy 2: OpenAlex homepage → publisher-specific cover pattern
         homepage = _openalex_homepage(cr["issn_list"])
         if homepage:
             cover = _cover_from_homepage(homepage)
             if cover:
-                print(f"    Cover (homepage pattern): {cover[:70]}")
-                return cover
+                local = _local_cover_url(cover)
+                print(f"    Cover (homepage pattern): {local[:70]}")
+                return local
 
         # Strategy 2b: Elsevier CDN via ISSN (secure-ecsd pattern)
         is_elsevier = (
@@ -520,8 +580,9 @@ def fetch_journal_cover(paper_url, journal_name=""):
                 url = f"https://secure-ecsd.elsevier.com/covers/80/Tango2/large/{issn_clean}.jpg"
                 verified = _probe(url)
                 if verified:
-                    print(f"    Cover (Elsevier CDN ISSN {issn}): {verified[:70]}")
-                    return verified
+                    local = _local_cover_url(verified)
+                    print(f"    Cover (Elsevier CDN ISSN {issn}): {local[:70]}")
+                    return local
 
         # Strategy 3: Wikipedia journal thumbnail
         wiki_name = cr.get("journal") or journal_name
@@ -529,8 +590,9 @@ def fetch_journal_cover(paper_url, journal_name=""):
             time.sleep(0.5)   # be polite to Wikipedia API
             thumb = _wikipedia_thumb(wiki_name)
             if thumb:
-                print(f"    Cover (Wikipedia): {thumb[:70]}")
-                return thumb
+                local = _local_cover_url(thumb)
+                print(f"    Cover (Wikipedia): {local[:70]}")
+                return local
 
     # ── Strategy 4: OG image from the paper page ──────────────────────────────
     final_url = paper_url
@@ -559,8 +621,9 @@ def fetch_journal_cover(paper_url, journal_name=""):
                 if img.startswith("//"):
                     img = "https:" + img
                 if img.startswith("http"):
-                    print(f"    Cover (OG image): {img[:75]}")
-                    return img
+                    local = _local_cover_url(img)
+                    print(f"    Cover (OG image): {local[:75]}")
+                    return local
 
     # ── Strategy 5: Bing Images search for the journal name ─────────────────
     search_name = ""
@@ -574,8 +637,9 @@ def fetch_journal_cover(paper_url, journal_name=""):
         print(f"    Trying Bing Images: {query[:60]}…")
         img = _bing_image_search(query)
         if img:
-            print(f"    Cover (Bing): {img[:70]}")
-            return img
+            local = _local_cover_url(img)
+            print(f"    Cover (Bing): {local[:70]}")
+            return local
 
     print("    No cover found.")
     return ""
@@ -649,8 +713,10 @@ def prepend_lines(news_content, lines):
     return insertion + news_content.lstrip("\n")
 
 
-# Matches a plain-text news line: starts with **YYYY-MM**
-_PLAIN_LINE_RE = re.compile(r'^\*\*\d{4}-\d{2}\*\*')
+# Matches a news line in either markdown or HTML format:
+#   **YYYY-MM** ...
+#   <strong>YYYY-MM</strong> ...
+_PLAIN_LINE_RE = re.compile(r'^(?:\*\*\d{4}-\d{2}\*\*|<strong>\d{4}-\d{2}</strong>)')
 _HREF_RE       = re.compile(r'href="([^"]+)"')
 
 
@@ -674,9 +740,18 @@ def add_covers_to_existing(news_content, dry_run=False):
     for line in lines:
         stripped = line.strip()
 
-        # Skip empty lines and items that already have a cover
-        if not stripped or "<img" in stripped:
+        # Reuse a cached local copy when the line already contains a remote cover URL.
+        if not stripped:
             updated.append(line)
+            continue
+
+        if "<img" in stripped:
+            rewritten = re.sub(
+                r'src="([^"]+)"',
+                lambda m: f'src="{_local_cover_url(m.group(1))}"' if m.group(1).startswith("http") else m.group(0),
+                line,
+            )
+            updated.append(rewritten)
             continue
 
         # Only reformat plain news items

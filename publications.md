@@ -4,10 +4,12 @@ permalink: /publications/
 ---
 
 <!-- pub-stats-start -->
-<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">📄 <strong>58</strong> publications &nbsp;|&nbsp; 📖 <strong>3077</strong> citations &nbsp;|&nbsp; 📊 h-index: <strong>19</strong> &nbsp;—&nbsp; <a href="https://scholar.google.com/citations?user=yECGOCwAAAAJ">Google Scholar</a> <em>(updated 2026-08-04)</em></p>
+<p style="background:#f0f0f0;padding:8px 12px;border-radius:6px;font-size:0.95em;">📄 <strong>62</strong> publications &nbsp;|&nbsp; 📖 <strong>3486</strong> citations &nbsp;|&nbsp; 📊 h-index: <strong>19</strong> &nbsp;—&nbsp; <a href="https://scholar.google.com/citations?user=yECGOCwAAAAJ">Google Scholar</a> <em>(updated 2026-10-27)</em></p>
 <!-- pub-stats-end -->
 
 <h3>Feature Papers</h3>
+
+<strong>Li, H.</strong>, Zou, L., Yin, W., Taskin, G., Yokoya, N., Hong, D., Zhao, W., 2027. [*Smart transfer: Leveraging vision foundation model for rapid building damage mapping with post-earthquake VHR imagery.* Remote Sensing of Environment 348, 115744.](https://www.sciencedirect.com/science/article/pii/S0034425726005146)
 
 <strong>Li, H.</strong>, Deuser, F., Yin, W., Knoblauch, S., Zhao, W., Biljecki, F., Xue, Y., Huang, W., 2026. [*Towards generative location awareness for disaster response: A probabilistic cross-view geolocalization approach.* ISPRS Journal of Photogrammetry and Remote Sensing 237, 130-145.](https://www.sciencedirect.com/science/article/pii/S0924271626002042)
 
@@ -17,10 +19,16 @@ permalink: /publications/
 
 <strong>Li, H.</strong>, Zech, J., Hong, D., Ghamisi, P., Schultz, M., Zipf, A.(2022) [*Leveraging OpenStreetMap and Multimodal Remote Sensing Data with Joint Deep Learning for Wastewater Treatment Plants Detection*. Volume 110, June 2022, 102804, International Journal of Applied Earth Observation and Geoinformation.](https://doi.org/10.1016/j.jag.2022.102804)
 
-<strong>Li, H.</strong>; Herfort, B.; Lautenbach, S.; Chen, J.; Zipf, A.(2022) [*Improving OpenStreetMap missing building detection using few-shot transfer learning in sub-Saharan Africa*. Transactions in GIS. 2022, 04 May.](https://doi.org/10.1111/tgis.12941) [**(Cover Image Article)**](https://onlinelibrary.wiley.com/doi/10.1111/tgis.13021)
-
 
 <h3>Journal Papers (peer reviewed)</h3>
+
+**(J40)** <strong>Li, H.</strong>, Zou, L., Yin, W., Taskin, G., Yokoya, N., Hong, D., Zhao, W., 2027. [*Smart transfer: Leveraging vision foundation model for rapid building damage mapping with post-earthquake VHR imagery.* Remote Sensing of Environment 348, 115744.](https://www.sciencedirect.com/science/article/pii/S0034425726005146)
+
+**(J39)** Liu, Z., Kwan, M.P., Wu, J., <strong>Li, H.</strong>, 2027. [*GeoPhysAdapter: Scale-matched geophysical adaptation for cross-domain landslide mapping with vision foundation models.* ISPRS Journal of Photogrammetry and Remote Sensing 243, 140-159.](https://www.sciencedirect.com/science/article/pii/S092427162600482X)
+
+**(J38)** Knoblauch, S., <strong>Li, H.</strong>, Li, W.W., Ghamisi, P., Herfort, B., Zipf, A., 2026. [*ACTION: Making Remote Sensing and Volunteered Geographic Information Decision‐Ready.* Transactions in GIS 30 (7), e70415.](https://onlinelibrary.wiley.com/doi/abs/10.1111/tgis.70415)
+
+**(J37)** L Juhász, Hochmair, H.H., <strong>Li, H.</strong>, 2026. [*Continued Advances in AI-Driven Geospatial Analysis and Data Generation.* ISPRS International Journal of Geo-Information 15 (9), 389.](https://www.mdpi.com/2220-9964/15/9/389)
 
 **(J36)** Yin, W., Liu, Z., Mou, N., Li, W., Hong, D., <strong>Li, H.*</strong>, 2026. [*DisasterTD: Disaster Toponym Disambiguation Using Multimodal LLMs and Cross-View Geolocalization.* IEEE Transactions on Geoscience and Remote Sensing.](https://ieeexplore.ieee.org/abstract/document/11625954/) (Corresponding Author)
 
